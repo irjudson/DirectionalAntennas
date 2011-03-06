@@ -1,0 +1,20 @@
+The number of nodes = 10
+The square side = 30000.0
+
+
+Seed          optimal total        mst total            knn total
+784671        9.0E8        	   7.25E8        	8.1E8
+583238        1.705E9       	   1.01E9        	1.57E9
+297555        1.415E9        	   7.7E8        	1.26E9
+276801        1.27E9               7.6E8        	1.1E9
+268465        1.2E9                6.95E8        	1.17E9
+110403        1.055E9              7.2E8        	9.4E8
+817940        1.33E9               8.0E8        	1.155E9
+739530        1.295E9              7.6E8        	1.15E9
+791581        1.12E9               8.35E8        	1.0E9
+888353        1.11E9               7.05E8        	1.045E9
+
+
+The optimal algorithm average = 1.24E9
+The MST-based algorithm average = 7.78E8
+The k nearest neighbors-based algorithm average = 1.12E9
