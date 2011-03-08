@@ -245,9 +245,6 @@ public class BrendansAlg {
 
             // VII. vF[v] <= 1/n, n = |V|
             double vFAmount = 1.0 / nodeNumber;
-//            for (int v = 0; v < nodeNumber; v++) {
-//                cplex.addLe(vF[v], vFAmount);
-//            }
 
             // VIII. sum f[s][v] over v - sum f[v][s] over v = 1 (Brendan revised)
             IloLinearNumExpr sourceFlow = cplex.linearNumExpr(vFAmount);
