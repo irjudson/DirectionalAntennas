@@ -40,16 +40,19 @@ public class Throughput {
      * @return the user throughput
      */
     public double calculateThroughput(int sectors, double distance){
+        double alpha = 2.0;
         double covered = sectors * (360.0 / beamsNumber);
         double gainTransmitter = Math.pow(10, (2 + 10 * Math.log10(360.0 / covered)) / 10.0);
         double pathLoss = gainReceiver * gainTransmitter * Math.pow(lambda, 2);
-        pathLoss /= Math.pow(4 * Math.PI * distance, 2);
+//        pathLoss /= Math.pow(4 * Math.PI * distance, 2);
+        pathLoss /= (Math.pow(4*Math.PI, 2) * Math.pow(distance, alpha));
         // in dB
         pathLoss = 10 * Math.log10(pathLoss);
         // take absolute value
-        pathLoss = Math.abs(pathLoss);        
+        //pathLoss = Math.abs(pathLoss);
 
         double weight = 0;
+
         if(pathLoss > 126)
             weight = 0;
         else if (pathLoss > 121.5)
