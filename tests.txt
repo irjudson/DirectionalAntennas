@@ -1,0 +1,18 @@
+So how about:
+
+Scenario 1:
+M = 8, n = 8, 10, 12, 14, 16
+get throughput and fairness for all als, including optimal
+
+Scenario 2:
+M = 8, n = 10, 15, 20, 25, 30
+get throughput and fairness for all als, exclude optimal
+
+Scenario 3:
+n = 20, M = 4, 6, 8, 10, 12
+get throughput and fairness for all als, exclude optimal
+
+Maybe we should get 5 runs for each parameter combo and average.  We
+should also dump the coordinates to the file of each run so that if
+Yun wants she can run her greedy alg on the same data.
+
