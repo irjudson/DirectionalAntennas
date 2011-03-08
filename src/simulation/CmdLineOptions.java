@@ -30,4 +30,9 @@ public class CmdLineOptions {
     usage = "Run verbosely.")
     public boolean verbose = false;
 
+      // Not used yet.
+    @Option(name = "-g", aliases = {"--graphs"}, metaVar = "GRAPHS",
+    usage = "Show Graphs.")
+    public boolean graphs = false;
+
 }
