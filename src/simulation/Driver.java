@@ -79,14 +79,18 @@ public class Driver {
         System.out.println("The Prim's-based graph is connected = " +
                 Utilities.checkForConnectivity(primsGraph));
 
-        DrawRegion draw = new DrawRegion(optimalGraph, 
-                options.squareSide, "The optimal graph topology");
-        DrawRegion draw1 = new DrawRegion(brendanGraph, 
-                options.squareSide, "The Brendan graph topology");
-        //DrawRegion draw2 = new DrawRegion(mstGraph, squareSide, "The MST-based graph topology");
-        //DrawRegion draw3 = new DrawRegion(knnGraph, squareSide, "The k nearest neighbors-based graph topology");
-        //DrawRegion draw4 = new DrawRegion(primsGraph, squareSide, "The Prim's-based graph topology");
-
+        if (options.graphs) {
+            DrawRegion draw = new DrawRegion(optimalGraph,
+                    options.squareSide, "The optimal graph topology");
+            DrawRegion draw1 = new DrawRegion(brendanGraph,
+                    options.squareSide, "The Brendan graph topology");
+            DrawRegion draw2 = new DrawRegion(mstGraph,
+                    options.squareSide, "The MST-based graph topology");
+            DrawRegion draw3 = new DrawRegion(knnGraph,
+                    options.squareSide, "The k nearest neighbors-based graph topology");
+            DrawRegion draw4 = new DrawRegion(primsGraph,
+                    options.squareSide, "The Prim's-based graph topology");
+        }
         System.out.println("\n\nOptimal total = " + optimal.getTotalWeight());
         System.out.println("Brendan total = " + brendan.getTotalWeight());
         System.out.println("MST total = " + mst.getTotalWeight());
