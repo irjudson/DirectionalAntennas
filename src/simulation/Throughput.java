@@ -44,12 +44,11 @@ public class Throughput {
         double covered = sectors * (360.0 / beamsNumber);
         double gainTransmitter = Math.pow(10, (2 + 10 * Math.log10(360.0 / covered)) / 10.0);
         double pathLoss = gainReceiver * gainTransmitter * Math.pow(lambda, 2);
-//        pathLoss /= Math.pow(4 * Math.PI * distance, 2);
         pathLoss /= (Math.pow(4*Math.PI, 2) * Math.pow(distance, alpha));
         // in dB
         pathLoss = 10 * Math.log10(pathLoss);
         // take absolute value
-        //pathLoss = Math.abs(pathLoss);
+        pathLoss = Math.abs(pathLoss);
 
         double weight = 0;
 
@@ -65,9 +64,6 @@ public class Throughput {
             weight = 40 * Math.pow(10, 6);  // 40 Mb/s
         else
             weight = 45 * Math.pow(10, 6);  // 45 Mb/s
-
-//        System.out.println("Sectors = " + sectors + ", distance = " + distance +
-//                ", path loss = " + pathLoss + " dB, weight = " + weight);
 
         return weight;
     }
