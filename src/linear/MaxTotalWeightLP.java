@@ -118,10 +118,6 @@ public class MaxTotalWeightLP {
                     }
                 }
             }
-//            IloNumVar[] vF = new IloNumVar[nodeNumber];
-//            for (int v = 0; v < nodeNumber; v++) {
-//                vF[v] = cplex.numVar(0, 1, "vF(" + v + ")");
-//            }
 
             // constraints III, IV, and VI
             for (int u = 0; u < nodeNumber; u++) {
@@ -150,28 +146,6 @@ public class MaxTotalWeightLP {
                 }
             }
 
-            // V. sum(1 - s[u][k]) over k >= (8-j) * x[u][v][j]
-//            for (int u = 0; u < nodeNumber; u++) {
-//                // beams is the constant term of the linear expression
-//                IloLinearNumExpr sumOverK = cplex.linearNumExpr(beams);
-//                for (int k = 1; k < beams + 1; k++) {
-//                    sumOverK.addTerm(-1, s[u][k]);
-//                }
-//
-//                for (int v = 0; v < nodeNumber; v++) {
-//                    if (u == v || c[u][v][1] < threshold) {
-//                        continue;
-//                    }
-//
-//                    for (int j = 1; j < beams + 1; j++) {
-//                        IloLinearNumExpr expr = cplex.linearNumExpr();
-//                        expr.addTerm(8 - j, x[u][v][j]);
-//
-//                        cplex.addGe(sumOverK, expr);
-//                    }
-//                }
-//            }
-
             // Brendan added new approach to constraint 5:
             IloNumVar[][] z = new IloNumVar[nodeNumber][beams + 1];
             for (int v = 0; v < nodeNumber; v++) {
@@ -194,9 +168,6 @@ public class MaxTotalWeightLP {
                 }
                 if (n > 1) {
                     for (int v = 0; v < nodeNumber; v++) {
-                        //System.out.print("constraint5-" + (xx++) + " {v in V}: z[v," + (n - 1) + "] <= " + n + " - sum{k in {");
-                        //IloLinearNumExpr lhs = cplex.linearNumExpr();
-                        //lhs.addTerm(1, z[v][n - 1]);
                         IloLinearNumExpr rhs = cplex.linearNumExpr(n);
                         for (int l = 0; l < n; l++) {
                             //System.out.print(element[l] + ",");
@@ -220,9 +191,6 @@ public class MaxTotalWeightLP {
 
             // VII. vF[v] <= 1/n, n = |V|
             double vFAmount = 1.0 / nodeNumber;
-//            for (int v = 0; v < nodeNumber; v++) {
-//                cplex.addLe(vF[v], vFAmount);
-//            }
 
             // VIII. sum f[s][v] over v - sum f[v][s] over v = 1 (Brendan revised)
             IloLinearNumExpr sourceFlow = cplex.linearNumExpr(vFAmount);
@@ -235,7 +203,6 @@ public class MaxTotalWeightLP {
                     sourceFlow.addTerm(1, f[sourceVertex][v]);
                 }
                 // Brendan added:
-                //sourceFlow.addTerm(1, vF[sourceVertex]);
 
                 if (c[v][sourceVertex][1] >= threshold) {
                     sourceFlow.addTerm(-1, f[v][sourceVertex]);
@@ -262,7 +229,6 @@ public class MaxTotalWeightLP {
                         outFlow.addTerm(1, f[v][w]);
                     }
                 }
-                //outFlow.addTerm(1, vF[v]);
 
                 cplex.addEq(incFlow, outFlow);
             }
@@ -300,7 +266,7 @@ public class MaxTotalWeightLP {
             // solve the problem
             IloObjective obj = cplex.maximize(maximizeExpr);
             cplex.add(obj);
-            cplex.exportModel("MaxTotalWeight.lp");
+//            cplex.exportModel("MaxTotalWeight.lp");
             if (cplex.solve()) {
                 cplexTotal = cplex.getObjValue();
                 System.out.println("Max total weight LP = " + cplexTotal);

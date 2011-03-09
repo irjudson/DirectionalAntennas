@@ -6,7 +6,6 @@ import linear.BrendansAlg;
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
 
-
 /**
  *
  * @author Kairat Zhubayev
@@ -21,6 +20,9 @@ public class Driver {
         int seed = 1532;
         double squareSide = 30000;
         int beams = 8;
+
+        Vertex[] optimalGraph = null;
+        MaxTotalWeightLP optimal = null;
 
         CmdLineOptions options = new CmdLineOptions();
         CmdLineParser parser = new CmdLineParser(options);
@@ -39,28 +41,24 @@ public class Driver {
         System.out.println("The seed = " + options.seed);
         System.out.println("The beams = " + options.beams);
         System.out.println("The number of neighbors = " + options.neighborsNumber);
-        
-        MaxTotalWeightLP optimal = new MaxTotalWeightLP(options.nodeNumber,
-                options.seed, options.squareSide, options.beams);
-        optimal.run();
-        Vertex[] optimalGraph = optimal.getGraph();
-        System.out.println("\n\nThe optimal graph is connected = " +
-                Utilities.checkForConnectivity(optimalGraph));
+
+        if (options.optimum) {
+            optimal = new MaxTotalWeightLP(options.nodeNumber,
+                    options.seed, options.squareSide, options.beams);
+            optimal.run();
+            optimalGraph = optimal.getGraph();
+        }
 
         BrendansAlg brendan = new BrendansAlg(options.nodeNumber, options.seed,
                 options.squareSide, options.beams);
         brendan.run();
         Vertex[] brendanGraph = brendan.getGraph();
-        System.out.println("\n\nThe Brendan graph is connected = " +
-                Utilities.checkForConnectivity(brendanGraph));
 
         MSTAlgorithm mst = new MSTAlgorithm(options.nodeNumber, options.seed,
                 options.squareSide, options.beams);
         mst.buildMinimumSpanningTree();
         mst.constructNewGraph();
         Vertex[] mstGraph = mst.getNewGraph();
-        System.out.println("The MST-based graph is connected = " +
-                Utilities.checkForConnectivity(mstGraph));        
 
         int neighborsNumber = 3;
         KNearestNeighborsAlgorithm knn =
@@ -69,19 +67,17 @@ public class Driver {
         knn.findKNearestNeighbors();
         knn.constructNewGraph();
         Vertex[] knnGraph = knn.getNewGraph();
-        System.out.println("The k nearest neighbors-based graph is connected = " +
-                Utilities.checkForConnectivity(knnGraph));
 
         PrimsBasedAlgorithm prims = new PrimsBasedAlgorithm(options.nodeNumber,
                 options.seed, options.squareSide, options.beams);
         prims.run();
         Vertex[] primsGraph = prims.getGraph();
-        System.out.println("The Prim's-based graph is connected = " +
-                Utilities.checkForConnectivity(primsGraph));
 
         if (options.graphs) {
-            DrawRegion draw = new DrawRegion(optimalGraph,
-                    options.squareSide, "The optimal graph topology");
+            if (options.optimum) {
+                DrawRegion draw = new DrawRegion(optimalGraph,
+                        options.squareSide, "The optimal graph topology");
+            }
             DrawRegion draw1 = new DrawRegion(brendanGraph,
                     options.squareSide, "The Brendan graph topology");
             DrawRegion draw2 = new DrawRegion(mstGraph,
@@ -91,11 +87,42 @@ public class Driver {
             DrawRegion draw4 = new DrawRegion(primsGraph,
                     options.squareSide, "The Prim's-based graph topology");
         }
-        System.out.println("\n\nOptimal total = " + optimal.getTotalWeight());
-        System.out.println("Brendan total = " + brendan.getTotalWeight());
-        System.out.println("MST total = " + mst.getTotalWeight());
-        System.out.println("k nearest neighbors total = " + knn.getTotalWeight());
-        System.out.println("Prim's-based total = " + prims.getTotalWeight());
-    }
 
+        if (options.optimum) {
+            System.out.println("Optimal Total: " + optimal.getTotalWeight()
+                    + "\tConnected: "
+                    + Utilities.checkForConnectivity(optimalGraph)
+                    + "\tFairness (in out): "
+                    + Utilities.inFairness(optimalGraph)
+                    + " " + Utilities.outFairness(optimalGraph));
+        }
+        System.out.println("Brendan total:   " + brendan.getTotalWeight()
+                + "\tConnected: "
+                + Utilities.checkForConnectivity(brendanGraph)
+                + "\tFairness (in out): "
+                + Utilities.inFairness(brendanGraph)
+                + " " + Utilities.outFairness(brendanGraph));
+
+        System.out.println("MinSpanT total:  " + mst.getTotalWeight()
+                + "\tConnected: "
+                + Utilities.checkForConnectivity(mstGraph)
+                + "\tFairness (in out): "
+                + Utilities.inFairness(mstGraph)
+                + " " + Utilities.outFairness(mstGraph));
+
+        System.out.println("K-nearest total: " + knn.getTotalWeight()
+                + "\tConnected: "
+                + Utilities.checkForConnectivity(knnGraph)
+                + "\tFairness (in out): "
+                + Utilities.inFairness(knnGraph)
+                + " " + Utilities.outFairness(knnGraph));
+
+        System.out.println("Prim's total:    " + prims.getTotalWeight()
+                + "\tConnected: "
+                + Utilities.checkForConnectivity(primsGraph)
+                + "\tFairness (in out): "
+                + Utilities.inFairness(primsGraph)
+                + " " + Utilities.outFairness(primsGraph));
+
+    }
 }

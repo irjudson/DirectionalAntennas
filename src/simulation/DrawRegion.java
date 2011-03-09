@@ -32,7 +32,6 @@ public class DrawRegion extends JPanel{
     @Override
     public void paintComponent(Graphics g){
         Graphics2D g2 = (Graphics2D)g;
-        //System.out.println("width = " + frame.getSize().width + ", height = " + frame.getSize().height);
         int width = frame.getSize().width;
         int height = frame.getSize().height;
         
