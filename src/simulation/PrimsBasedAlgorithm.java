@@ -190,8 +190,6 @@ public class PrimsBasedAlgorithm {
             markedVertexNumber++;
             // remove from the list of unmarked nodes
             unknownNodes.remove(bestVertex);
-//            System.out.println("Vertex " + bestVertex.vertexNumber + " uses " +
-//                    bestVertex.beamsUsedNumber + " sector(s).");
             
             // check
             if(bestVertex.activeBeams[0]){
@@ -261,8 +259,17 @@ public class PrimsBasedAlgorithm {
                 // create a new list element and add it to vertix j's list
                 ListElement elem2 = new ListElement(i, weightJtoI);
                 vertices[j].vertices.add(elem2);
+
+		// Update local throughputs
+		vertices[i].outThroughput += weightItoJ;
+		vertices[i].inThroughput += weightJtoI;
+		vertices[j].outThroughput += weightJtoI;
+		vertices[j].inThroughput += weightItoJ;
+
                 // update total weight
                 totalWeight += weightItoJ + weightJtoI;
+
+                System.out.println("[Prim's] Throughput (" + i + "," + j+") = " + totalWeight);
             }
         }
 

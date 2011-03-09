@@ -130,7 +130,6 @@ public class KNearestNeighborsAlgorithm {
                     beamsUsed++;
 
             newGraph[i].beamsUsedNumber = beamsUsed;
-            //System.out.println("Node " + i + " uses " + beamsUsed + " beams out of " + beams);
         }
 
         // add edges in the new graph        
@@ -158,14 +157,17 @@ public class KNearestNeighborsAlgorithm {
                 // create a new list element and add it to vertix j's list
                 ListElement elem2 = new ListElement(i, weightJtoI);
                 newGraph[j].vertices.add(elem2);
+
+		// Update local throughputs
+		newGraph[i].outThroughput += weightItoJ;
+		newGraph[i].inThroughput += weightJtoI;
+		newGraph[j].outThroughput += weightJtoI;
+		newGraph[j].inThroughput += weightItoJ;
+
                 // update total weight
                 totalWeight += weightItoJ + weightJtoI;
             }
         }
-
-//        System.out.println("The new graph has " + nodeNumber +
-//                " nodes and " + edgeCount + " edges.");
-//        System.out.println("The total link weight is " + totalWeight);
     }
 
 
@@ -224,9 +226,6 @@ public class KNearestNeighborsAlgorithm {
         Vertex[] topologyGraph = gr.getNewGraph();
         System.out.println("The newly built graph is connected = " +
                 Utilities.checkForConnectivity(topologyGraph));
-
-        DrawRegion draw = new DrawRegion(topologyGraph, squareSide, "The k nearest neighbors-based graph topology");
-        DrawKNearestNeighbors draw2 = new DrawKNearestNeighbors(topologyGraph, squareSide, gr.getNeighbors());
     }
 
 }

@@ -30,6 +30,8 @@ public class Vertex implements Comparable{
     public Point point;                         // corresponding point
     public boolean activeBeams [];
     public int beamsUsedNumber;
+    public float inThroughput;
+    public float outThroughput;
 
     /**
      * 
