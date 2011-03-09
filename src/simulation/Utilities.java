@@ -44,6 +44,11 @@ public class Utilities {
         return array;
     }
 
+    public static void printGraph(Vertex[] graph) {
+        for(int i = 0; i < graph.length - 1; i++) {
+            System.out.println(graph[i].vertexNumber + " " + graph[i].point.x + " " + graph[i].point.y);
+        }
+    }
     /**
      *
      * @param graph
