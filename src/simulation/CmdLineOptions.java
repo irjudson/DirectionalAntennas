@@ -18,7 +18,7 @@ public class CmdLineOptions {
     public int beams = 8;
     @Option(name = "-l", aliases = {"--sideLength"}, metaVar = "LENGTH",
     usage = "Specify the length of the square side.")
-    public int squareSide = 3000;
+    public double squareSide = 30000.0;
 
     // Only used in the comparison driver, but at least it's captured.
     @Option(name = "-f", aliases = {"--numberOfNeighbors"}, metaVar = "FRIENDS",
@@ -44,4 +44,8 @@ public class CmdLineOptions {
     @Option(name = "-d", aliases = {"--dump-graphs"}, metaVar = "DUMPGRAPHS",
     usage = "Write out graphs to files.")
     public boolean dumpGraphs = false;
+
+    @Option(name = "-p", aliases = {"--print-headers"}, metaVar = "HEADERS",
+    usage = "Print headers for output data.")
+    public boolean headers = false;
 }
