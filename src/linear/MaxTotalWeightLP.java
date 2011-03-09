@@ -141,7 +141,7 @@ public class MaxTotalWeightLP {
 
                     // VI. f[u][v] <= sum x[u][v] over j
                     IloLinearNumExpr expr2 = cplex.linearNumExpr();
-                    expr2.addTerm(1.0/(nodeNumber), f[u][v]);
+                    expr2.addTerm(1.0 / (nodeNumber), f[u][v]);
                     cplex.addLe(expr2, expr);
                 }
             }
@@ -266,11 +266,12 @@ public class MaxTotalWeightLP {
             // solve the problem
             IloObjective obj = cplex.maximize(maximizeExpr);
             cplex.add(obj);
+            cplex.setOut(null);
 //            cplex.exportModel("MaxTotalWeight.lp");
             if (cplex.solve()) {
                 cplexTotal = cplex.getObjValue();
-                System.out.println("Max total weight LP = " + cplexTotal);
-                System.out.println("Solution status = " + cplex.getStatus());
+//                System.out.println("Max total weight LP = " + cplexTotal);
+//                System.out.println("Solution status = " + cplex.getStatus());
 
                 // figure out the antenna pattern assignment
                 for (int u = 0; u < nodeNumber; u++) {
@@ -357,6 +358,16 @@ public class MaxTotalWeightLP {
                         // create a new list element and add it to vertix j's list
                         ListElement elem2 = new ListElement(i, weightJtoI);
                         vertices[j].vertices.add(elem2);
+
+                        // Update local throughputs
+                        double i_to_j = c[i][j][vertices[i].beamsUsedNumber] * cplex.getValue(x[i][j][vertices[i].beamsUsedNumber]);
+                        double j_to_i = c[j][i][vertices[j].beamsUsedNumber] * cplex.getValue(x[j][i][vertices[j].beamsUsedNumber]);
+
+                        vertices[i].outThroughput += i_to_j;
+                        vertices[i].inThroughput += j_to_i;
+                        vertices[j].outThroughput += j_to_i;
+                        vertices[j].inThroughput += i_to_j;
+
                         // update total weight
                         totalWeight += weightItoJ + weightJtoI;
                     }

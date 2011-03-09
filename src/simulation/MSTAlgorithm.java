@@ -69,7 +69,6 @@ public class MSTAlgorithm {
         }
     }
     
-    
     /**
      * find minimum spanning tree
      * use the Prims's algorithm to solve this problem
@@ -179,14 +178,17 @@ public class MSTAlgorithm {
                 // create a new list element and add it to vertix j's list
                 ListElement elem2 = new ListElement(i, weightJtoI);
                 newGraph[j].vertices.add(elem2);
+
+		// Update local throughputs
+		newGraph[i].outThroughput += weightItoJ;
+		newGraph[i].inThroughput += weightJtoI;
+		newGraph[j].outThroughput += weightJtoI;
+		newGraph[j].inThroughput += weightItoJ;
+
                 // update total weight
                 totalWeight += weightItoJ + weightJtoI;
             }
         }
-
-//        System.out.println("The new graph has " + nodeNumber +
-//                " nodes and " + edgeCount + " edges.");
-//        System.out.println("The total link weight is " + totalWeight);
     }
     
 
