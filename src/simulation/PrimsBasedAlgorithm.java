@@ -210,7 +210,6 @@ public class PrimsBasedAlgorithm {
                 if(distance <= range[bestVertex.beamsUsedNumber]){
                     if(!unknownNodes.contains(vertices[i])){
                         unknownNodes.add(vertices[i]);
-                        //System.out.println("Vertex " + i + " added to the list of unknown nodes");
                     }
                 }
             }
@@ -252,8 +251,6 @@ public class PrimsBasedAlgorithm {
                 double weightJtoI = throughput.calculateThroughput(vertices[j].beamsUsedNumber, dist);
                 if(weightJtoI < threshold)
                     continue;
-                System.out.println("----> " + dist + " " + vertices[i].beamsUsedNumber + " " + vertices[j].beamsUsedNumber);
-                System.out.println("--> " + i + " " + j + " " + weightItoJ + " " + weightJtoI);
                 // create a new list element and add it to vertix i's list
                 ListElement elem1 = new ListElement(j, weightItoJ);
                 vertices[i].vertices.add(elem1);
@@ -270,9 +267,6 @@ public class PrimsBasedAlgorithm {
 
                 // update total weight
                 totalWeight += weightItoJ + weightJtoI;
-
-//                System.out.println("[Prim's] Throughput," + i + "," + j + "," + weightItoJ);
-//                System.out.println("[Prim's] Throughput," + j + "," + i + "," + weightJtoI);
             }
         }
 
