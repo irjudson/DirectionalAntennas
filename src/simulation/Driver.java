@@ -19,7 +19,7 @@ public class Driver {
         int nodeNumber = 10;
         int seed = 1532;
         double squareSide = 30000;
-        int beams = 8;
+        int beams = 10;
 
         Vertex[] optimalGraph = null;
         MaxTotalWeightLP optimal = null;
