@@ -38,7 +38,7 @@ public class CmdLineOptions {
     // Not used yet.
     @Option(name = "-o", aliases = {"--optimum"}, metaVar = "OPTIMUM",
     usage = "Include the optimum solution.")
-    public boolean optimum = true;
+    public boolean optimum = false;
 
     // Not used yet.
     @Option(name = "-d", aliases = {"--dump-graphs"}, metaVar = "DUMPGRAPHS",
