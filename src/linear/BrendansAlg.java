@@ -89,12 +89,8 @@ public class BrendansAlg {
     public void runModel() {
         // create an ILP
         try {
-            if (cplex == null) {
-                cplex = new IloCplex();
-            }
 
-            cplex.clearModel();
-
+            cplex = new IloCplex();
 
 
             // x[u][v][j]: u transits v and uses exactly j antenna sectors
