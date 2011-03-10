@@ -36,12 +36,6 @@ public class Driver {
             System.exit(1);
         }
 
-//        System.out.println("The number of nodes = " + options.nodeNumber);
-//        System.out.println("The square side = " + options.squareSide);
-//        System.out.println("The seed = " + options.seed);
-//        System.out.println("The beams = " + options.beams);
-//        System.out.println("The number of neighbors = " + options.neighborsNumber);
-
         if (options.optimum) {
             optimal = new MaxTotalWeightLP(options.nodeNumber,
                     options.seed, options.squareSide, options.beams);
@@ -88,75 +82,67 @@ public class Driver {
                     options.squareSide, "The Prim's-based graph topology");
         }
 
-//        if (options.optimum) {
-//            System.out.println("Optimal Total: " + optimal.getTotalWeight()
-//                    + "\tConnected: "
-//                    + Utilities.checkForConnectivity(optimalGraph)
-//                    + "\tFairness (in out): "
-//                    + Utilities.inFairness(optimalGraph)
-//                    + " " + Utilities.outFairness(optimalGraph));
-//        }
-//        System.out.println("Brendan total:   " + brendan.getTotalWeight()
-//                + "\tConnected: "
-//                + Utilities.checkForConnectivity(brendanGraph)
-//                + "\tFairness (in out): "
-//                + Utilities.inFairness(brendanGraph)
-//                + " " + Utilities.outFairness(brendanGraph));
-//
-//        System.out.println("MinSpanT total:  " + mst.getTotalWeight()
-//                + "\tConnected: "
-//                + Utilities.checkForConnectivity(mstGraph)
-//                + "\tFairness (in out): "
-//                + Utilities.inFairness(mstGraph)
-//                + " " + Utilities.outFairness(mstGraph));
-//
-//        System.out.println("K-nearest total: " + knn.getTotalWeight()
-//                + "\tConnected: "
-//                + Utilities.checkForConnectivity(knnGraph)
-//                + "\tFairness (in out): "
-//                + Utilities.inFairness(knnGraph)
-//                + " " + Utilities.outFairness(knnGraph));
-//
-//        System.out.println("Prim's total:    " + prims.getTotalWeight()
-//                + "\tConnected: "
-//                + Utilities.checkForConnectivity(primsGraph)
-//                + "\tFairness (in out): "
-//                + Utilities.inFairness(primsGraph)
-//                + " " + Utilities.outFairness(primsGraph));
-
 	// Output in one line
 	// Headers first
-	String headers = "n\tside\tseed\tsectors\tneighbors";
-	headers += "\tOptimal Total\tOptimal Connected\tOptimal Fairness (in)\tOptimal Fairness (out)\t";
-	headers += "\tBrendan Total\tBrendan Connected\tBrendan Fairness (in)\tBrendan Fairness (out)\t";
-	headers += "\tMinSpanTree Total\tMinSpanTree Connected\tMinSpanTree Fairness (in)\tMinSpanTree Fairness (out)\t";
-	headers += "\tK-nearest Total\tK-nearest Connected\tK-nearest Fairness (in)\tK-nearest Fairness (out)\t";
-	headers += "\tPrim's Total\tPrim's Connected\tPrim's Fairness (in)\tPrim's Fairness (out)\t";
+	String headers = "n,side,seed,sectors,neighbors,";
+	headers += "Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),";
+	headers += "Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),";
+	headers += "MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),";
+	headers += "K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),";
+	headers += "Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),";
 	System.out.println(headers);
-	System.out.println(options.nodeNumber + "\t" 
-		         + options.squareSide + "\t" 
-			 + options.seed + "\t" 
-			 + options.beams + "\t" 
-			 + options.neighborsNumber + "\t" 
-			 + optimal.getTotalWeight() + "\t" 
-			 + Utilities.checkForConnectivity(optimalGraph) + "\t" 
-			 + Utilities.inFairness(optimalGraph) + "\t" 
-			 + Utilities.outFairness(optimalGraph) + "\t"
-			 + brendan.getTotalWeight() + "\t"
-			 + Utilities.checkForConnectivity(brendanGraph) + "\t"
-			 + Utilities.inFairness(brendanGraph) + "\t"
-			 + Utilities.outFairness(brendanGraph) + "\t"
-			 + mst.getTotalWeight() + "\t"
-			 + Utilities.checkForConnectivity(mstGraph) + "\t"
-			 + Utilities.inFairness(mstGraph) + "\t"
-			 + Utilities.outFairness(mstGraph) + "\t"
-			 + knn.getTotalWeight() + "\t"
-			 + Utilities.checkForConnectivity(knnGraph) + "\t"
-			 + Utilities.inFairness(knnGraph) + "\t"
-			 + Utilities.outFairness(knnGraph) + "\t"
-			 + prims.getTotalWeight() + "\t"
-			 + Utilities.checkForConnectivity(primsGraph) + "\t"
-			 + Utilities.inFairness(primsGraph) + "\t"
-			 + Utilities.outFairness(primsGraph));
+        if (options.optimum) {
+            System.out.println(options.nodeNumber + ","
+                    + options.squareSide + ","
+                    + options.seed + ","
+                    + options.beams + ","
+                    + options.neighborsNumber + ","
+                    + optimal.getTotalWeight() + ","
+                    + Utilities.checkForConnectivity(optimalGraph) + ","
+                    + Utilities.inFairness(optimalGraph) + ","
+                    + Utilities.outFairness(optimalGraph) + ","
+                    + brendan.getTotalWeight() + ","
+                    + Utilities.checkForConnectivity(brendanGraph) + ","
+                    + Utilities.inFairness(brendanGraph) + ","
+                    + Utilities.outFairness(brendanGraph) + ","
+                    + mst.getTotalWeight() + ","
+                    + Utilities.checkForConnectivity(mstGraph) + ","
+                    + Utilities.inFairness(mstGraph) + ","
+                    + Utilities.outFairness(mstGraph) + ","
+                    + knn.getTotalWeight() + ","
+                    + Utilities.checkForConnectivity(knnGraph) + ","
+                    + Utilities.inFairness(knnGraph) + ","
+                    + Utilities.outFairness(knnGraph) + ","
+                    + prims.getTotalWeight() + ","
+                    + Utilities.checkForConnectivity(primsGraph) + ","
+                    + Utilities.inFairness(primsGraph) + ","
+                    + Utilities.outFairness(primsGraph));
+        } else {
+            System.out.println(options.nodeNumber + ","
+                    + options.squareSide + ","
+                    + options.seed + ","
+                    + options.beams + ","
+                    + options.neighborsNumber + ","
+                    + "Not Run" + ","
+                    + "Not Run" + ","
+                    + "Not Run" + ","
+                    + "Not Run" + ","
+                    + brendan.getTotalWeight() + ","
+                    + Utilities.checkForConnectivity(brendanGraph) + ","
+                    + Utilities.inFairness(brendanGraph) + ","
+                    + Utilities.outFairness(brendanGraph) + ","
+                    + mst.getTotalWeight() + ","
+                    + Utilities.checkForConnectivity(mstGraph) + ","
+                    + Utilities.inFairness(mstGraph) + ","
+                    + Utilities.outFairness(mstGraph) + ","
+                    + knn.getTotalWeight() + ","
+                    + Utilities.checkForConnectivity(knnGraph) + ","
+                    + Utilities.inFairness(knnGraph) + ","
+                    + Utilities.outFairness(knnGraph) + ","
+                    + prims.getTotalWeight() + ","
+                    + Utilities.checkForConnectivity(primsGraph) + ","
+                    + Utilities.inFairness(primsGraph) + ","
+                    + Utilities.outFairness(primsGraph));
+        }
     }
 }
