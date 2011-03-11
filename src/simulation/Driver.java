@@ -1,5 +1,6 @@
 package simulation;
 
+import java.util.Random;
 import linear.MaxTotalWeightLP;
 import linear.BrendansAlg;
 
@@ -16,11 +17,7 @@ public class Driver {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int nodeNumber = 10;
-        int seed = 1532;
-        double squareSide = 30000;
-        int beams = 10;
-
+        Random generator = new java.util.Random();
         Vertex[] optimalGraph = null;
         MaxTotalWeightLP optimal = null;
 
@@ -41,6 +38,10 @@ public class Driver {
                     options.seed, options.squareSide, options.beams);
             optimal.run();
             optimalGraph = optimal.getGraph();
+        }
+
+        if (options.randomSeed) {
+            options.seed = generator.nextInt(65536)+1;
         }
 
         BrendansAlg brendan = new BrendansAlg(options.nodeNumber, options.seed,

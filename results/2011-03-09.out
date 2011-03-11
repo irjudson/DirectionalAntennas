@@ -1,0 +1,785 @@
+Running 1 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,1532,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,5.7E8,true,0.7211538461538461,0.8272058823529411,4.7E8,true,0.8496153846153847,0.8655956112852664,5.5E8,true,0.9359529702970297,0.933641975308642,4.9E8,false,0.7180023923444976,0.7302311435523114
+Running 2 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,1532,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,5.7E8,true,0.7211538461538461,0.8272058823529411,4.7E8,true,0.8496153846153847,0.8655956112852664,5.5E8,true,0.9359529702970297,0.933641975308642,4.9E8,false,0.7180023923444976,0.7302311435523114
+Running 3 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,1532,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,5.7E8,true,0.7211538461538461,0.8272058823529411,4.7E8,true,0.8496153846153847,0.8655956112852664,5.5E8,true,0.9359529702970297,0.933641975308642,4.9E8,false,0.7180023923444976,0.7302311435523114
+Running 4 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,1532,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,5.7E8,true,0.7211538461538461,0.8272058823529411,4.7E8,true,0.8496153846153847,0.8655956112852664,5.5E8,true,0.9359529702970297,0.933641975308642,4.9E8,false,0.7180023923444976,0.7302311435523114
+Running 5 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,1532,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,5.7E8,true,0.7211538461538461,0.8272058823529411,4.7E8,true,0.8496153846153847,0.8655956112852664,5.5E8,true,0.9359529702970297,0.933641975308642,4.9E8,false,0.7180023923444976,0.7302311435523114
+Running 1 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,1532,8,3,1.17E9,true,0.7563595949617189,0.8086876155268022,1.13E9,true,0.679107725788901,0.8027009646302251,7.3E8,true,0.8458730158730159,0.8665040650406504,1.07E9,true,0.8213055954088953,0.8706463878326997,9.7E8,true,0.7187929717341482,0.7873640167364017
+Running 2 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,1532,8,3,1.17E9,true,0.7563595949617189,0.8086876155268022,1.13E9,true,0.679107725788901,0.8027009646302251,7.3E8,true,0.8458730158730159,0.8665040650406504,1.07E9,true,0.8213055954088953,0.8706463878326997,9.7E8,true,0.7187929717341482,0.7873640167364017
+Running 3 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,1532,8,3,1.17E9,true,0.7563595949617189,0.8086876155268022,1.13E9,true,0.679107725788901,0.8027009646302251,7.3E8,true,0.8458730158730159,0.8665040650406504,1.07E9,true,0.8213055954088953,0.8706463878326997,9.7E8,true,0.7187929717341482,0.7873640167364017
+Running 4 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,1532,8,3,1.17E9,true,0.7563595949617189,0.8086876155268022,1.13E9,true,0.679107725788901,0.8027009646302251,7.3E8,true,0.8458730158730159,0.8665040650406504,1.07E9,true,0.8213055954088953,0.8706463878326997,9.7E8,true,0.7187929717341482,0.7873640167364017
+Running 5 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,1532,8,3,1.17E9,true,0.7563595949617189,0.8086876155268022,1.13E9,true,0.679107725788901,0.8027009646302251,7.3E8,true,0.8458730158730159,0.8665040650406504,1.07E9,true,0.8213055954088953,0.8706463878326997,9.7E8,true,0.7187929717341482,0.7873640167364017
+Running 1 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,1532,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.425E9,true,0.7038992264269287,0.8508339651250948,9.1E8,true,0.8567142561555969,0.8967944552739875,1.36E9,true,0.8997859505740416,0.9381213227835261,1.155E9,false,0.7830163761225568,0.849102539621921
+Running 2 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,1532,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.425E9,true,0.7038992264269287,0.8508339651250948,9.1E8,true,0.8567142561555969,0.8967944552739875,1.36E9,true,0.8997859505740416,0.9381213227835261,1.155E9,false,0.7830163761225568,0.849102539621921
+Running 3 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,1532,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.425E9,true,0.7038992264269287,0.8508339651250948,9.1E8,true,0.8567142561555969,0.8967944552739875,1.36E9,true,0.8997859505740416,0.9381213227835261,1.155E9,false,0.7830163761225568,0.849102539621921
+Running 4 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,1532,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.425E9,true,0.7038992264269287,0.8508339651250948,9.1E8,true,0.8567142561555969,0.8967944552739875,1.36E9,true,0.8997859505740416,0.9381213227835261,1.155E9,false,0.7830163761225568,0.849102539621921
+Running 5 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,1532,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.425E9,true,0.7038992264269287,0.8508339651250948,9.1E8,true,0.8567142561555969,0.8967944552739875,1.36E9,true,0.8997859505740416,0.9381213227835261,1.155E9,false,0.7830163761225568,0.849102539621921
+Running 1 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,1532,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,1.99E9,true,0.8199032388119877,0.8378745845579146,1.315E9,true,0.8865320037938017,0.9053771041126731,1.865E9,false,0.9138193760262726,0.9651146658527449,1.495E9,true,0.8492865692626299,0.8828682032746736
+Running 2 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,1532,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,1.99E9,true,0.8199032388119877,0.8378745845579146,1.315E9,true,0.8865320037938017,0.9053771041126731,1.865E9,false,0.9138193760262726,0.9651146658527449,1.495E9,true,0.8492865692626299,0.8828682032746736
+Running 3 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,1532,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,1.99E9,true,0.8199032388119877,0.8378745845579146,1.315E9,true,0.8865320037938017,0.9053771041126731,1.865E9,false,0.9138193760262726,0.9651146658527449,1.495E9,true,0.8492865692626299,0.8828682032746736
+Running 4 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,1532,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,1.99E9,true,0.8199032388119877,0.8378745845579146,1.315E9,true,0.8865320037938017,0.9053771041126731,1.865E9,false,0.9138193760262726,0.9651146658527449,1.495E9,true,0.8492865692626299,0.8828682032746736
+Running 5 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,1532,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,1.99E9,true,0.8199032388119877,0.8378745845579146,1.315E9,true,0.8865320037938017,0.9053771041126731,1.865E9,false,0.9138193760262726,0.9651146658527449,1.495E9,true,0.8492865692626299,0.8828682032746736
+Running 1 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+16,30000.0,1532,8,3,2.665E9,true,0.8146260194947285,0.9252428829643019,2.605E9,true,0.8732747562852745,0.8446712158808933,1.575E9,true,0.8588232239302036,0.8762982195845698,2.54E9,true,0.8941678678345715,0.929089861751152,1.855E9,true,0.8341474352758654,0.8988154320342702
+Running 2 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+16,30000.0,1532,8,3,2.665E9,true,0.8146260194947285,0.9252428829643019,2.605E9,true,0.8732747562852745,0.8446712158808933,1.575E9,true,0.8588232239302036,0.8762982195845698,2.54E9,true,0.8941678678345715,0.929089861751152,1.855E9,true,0.8341474352758654,0.8988154320342702
+Running 3 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+16,30000.0,1532,8,3,2.665E9,true,0.8146260194947285,0.9252428829643019,2.605E9,true,0.8732747562852745,0.8446712158808933,1.575E9,true,0.8588232239302036,0.8762982195845698,2.54E9,true,0.8941678678345715,0.929089861751152,1.855E9,true,0.8341474352758654,0.8988154320342702
+Running 4 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+16,30000.0,1532,8,3,2.665E9,true,0.8146260194947285,0.9252428829643019,2.605E9,true,0.8732747562852745,0.8446712158808933,1.575E9,true,0.8588232239302036,0.8762982195845698,2.54E9,true,0.8941678678345715,0.929089861751152,1.855E9,true,0.8341474352758654,0.8988154320342702
+Running 5 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+16,30000.0,1532,8,3,2.665E9,true,0.8146260194947285,0.9252428829643019,2.605E9,true,0.8732747562852745,0.8446712158808933,1.575E9,true,0.8588232239302036,0.8762982195845698,2.54E9,true,0.8941678678345715,0.929089861751152,1.855E9,true,0.8341474352758654,0.8988154320342702
+Running 1 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 2 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 3 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 4 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 5 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 1 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 2 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 3 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 4 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 5 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 1 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 2 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 3 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 4 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 5 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 1 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 2 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 3 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 4 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 5 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 1 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 2 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 3 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 4 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 5 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 1 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 2 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 3 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 4 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 5 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 1 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 2 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 3 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 4 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 5 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 1 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 2 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 3 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 4 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 5 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 1 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 2 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 3 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 4 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 5 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 1 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 2 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 3 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 4 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 5 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at linear.BrendansAlg.runModel(BrendansAlg.java:201)
+	at linear.BrendansAlg.run(BrendansAlg.java:369)
+	at simulation.Driver.main(Driver.java:48)
+Running 1 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 2 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 3 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 4 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 5 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 1 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 2 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 3 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 4 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 5 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 1 with 8 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 2 with 8 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 3 with 8 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 4 with 8 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 5 with 8 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 1 with 8 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 2 with 8 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 3 with 8 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 4 with 8 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 5 with 8 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 1 with 8 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 2 with 8 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 3 with 8 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 4 with 8 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 5 with 8 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 1 with 10 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:222)
+	at simulation.Driver.main(Driver.java:67)
+Running 2 with 10 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:222)
+	at simulation.Driver.main(Driver.java:67)
+Running 3 with 10 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:222)
+	at simulation.Driver.main(Driver.java:67)
+Running 4 with 10 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:222)
+	at simulation.Driver.main(Driver.java:67)
+Running 5 with 10 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:222)
+	at simulation.Driver.main(Driver.java:67)
+Running 1 with 10 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 2 with 10 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 3 with 10 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 4 with 10 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 5 with 10 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 1 with 10 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 2 with 10 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 3 with 10 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 4 with 10 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 5 with 10 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 1 with 10 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 2 with 10 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 3 with 10 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 4 with 10 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 5 with 10 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 1 with 10 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 2 with 10 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 3 with 10 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 4 with 10 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 5 with 10 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 1 with 12 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:222)
+	at simulation.Driver.main(Driver.java:67)
+Running 2 with 12 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:222)
+	at simulation.Driver.main(Driver.java:67)
+Running 3 with 12 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:222)
+	at simulation.Driver.main(Driver.java:67)
+Running 4 with 12 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:222)
+	at simulation.Driver.main(Driver.java:67)
+Running 5 with 12 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:222)
+	at simulation.Driver.main(Driver.java:67)
+Running 1 with 12 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 2 with 12 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 3 with 12 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 4 with 12 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 5 with 12 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 1 with 12 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 2 with 12 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 3 with 12 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 4 with 12 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 5 with 12 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 1 with 12 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 2 with 12 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 3 with 12 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 4 with 12 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 5 with 12 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 1 with 12 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 2 with 12 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 3 with 12 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 4 with 12 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)
+Running 5 with 12 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),,Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),,MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),,K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),,Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.Driver.main(Driver.java:94)

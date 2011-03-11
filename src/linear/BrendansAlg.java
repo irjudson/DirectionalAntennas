@@ -178,11 +178,9 @@ public class BrendansAlg {
                 }
             }
             //int xx = 1;
-            for (int i = 0; i < 256; i++) {
-                int j = i;
-                int k = 1;
-                int n = 0;
-                int[] element = new int[8];
+            for (int i = 0; i < Math.pow(2.0, beams); i++) {
+                int j = i, k = 1, n = 0;
+                int[] element = new int[nodeNumber];
                 while (j > 0) {
                     if ((j % 2) == 1) {
                         element[n++] = k;

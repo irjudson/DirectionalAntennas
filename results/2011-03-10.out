@@ -1,0 +1,2160 @@
+Running 1 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,59702,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,6.0E8,true,0.753099173553719,0.71751968503937,4.55E8,true,0.8691225860621327,0.9384632819582955,5.8E8,true,0.8806282722513089,0.8956336528221512,2.6E8,false,0.6329588014981273,0.7788018433179723
+Running 2 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,47092,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,6.55E8,true,0.8261173184357542,0.9283632286995516,5.55E8,true,0.9043599530240751,0.9373858794887401,6.4E8,true,0.9561157796451915,0.9481481481481482,3.1E8,false,0.6160256410256411,0.728030303030303
+Running 3 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,13822,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,5.95E8,true,0.8522727272727273,0.8140135853514472,4.5E8,true,0.7589955022488756,0.8367768595041323,5.85E8,true,0.8483515121467526,0.8743612672457843,3.9E8,false,0.652229845626072,0.7905405405405406
+Running 4 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Number of marked vertices = 7
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 5 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,60074,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,5.05E8,true,0.7184699103713188,0.7959219858156028,4.5E8,true,0.8639078498293515,0.9375,5.0E8,true,0.9191176470588235,0.946969696969697,4.0E8,false,0.7299270072992701,0.9111617312072893
+Running 6 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,53435,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,8.7E8,true,0.8474426807760141,0.8534635879218473,7.3E8,true,0.8935278336686787,0.9675018155410312,8.55E8,true,0.9063042400198363,0.9616219415943172,7.45E8,true,0.804617280371122,0.9113711001642036
+Running 7 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,414,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,9.6E8,true,0.7340501792114695,0.9022026431718062,6.4E8,true,0.7057201929703653,0.8244766505636071,9.4E8,true,0.8383301707779887,0.944017094017094,7.7E8,true,0.7287364798426745,0.8642857142857143
+Running 8 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,35032,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,7.15E8,true,0.7299966239027684,0.8655924739791834,5.45E8,true,0.7240980009751341,0.9600032320620556,7.15E8,true,0.9407894736842105,0.9934415079673533,4.8E8,true,0.9290322580645162,0.8944099378881988
+Running 9 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,25535,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,6.3E8,true,0.8861455108359133,0.8883457479826194,4.5E8,true,0.8112980769230769,0.8976063829787234,5.3E8,true,0.9301324503311258,0.9326029216467463,3.55E8,false,0.7619407496977025,0.8573129251700681
+Running 10 with 8 sectors and 8 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+8,30000.0,65282,8,3,5.95E8,true,0.6445386064030132,0.8982939632545932,7.5E8,true,0.7370283018867925,0.8538251366120219,5.35E8,true,0.7624533830580714,0.8248559077809798,7.1E8,true,0.7578171978352375,0.7901253918495298,5.4E8,false,0.7401015228426396,0.7714285714285715
+Running 1 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,49810,8,3,1.17E9,true,0.7563595949617189,0.8086876155268022,1.43E9,true,0.8085912823752369,0.7472270869819031,9.7E8,true,0.8720111214087117,0.9210964268232991,1.28E9,true,0.9448673587081892,0.9634813290208762,1.045E9,true,0.772704758535291,0.9147853403141362
+Running 2 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 3 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 4 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,33531,8,3,1.17E9,true,0.7563595949617189,0.8086876155268022,1.02E9,true,0.7990012484394506,0.845442536327609,7.65E8,true,0.8286371681415929,0.8883870967741936,9.5E8,true,0.894893406048587,0.8993522670652716,6.9E8,true,0.6865176640230714,0.741011673151751
+Running 5 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 6 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,43916,8,3,1.17E9,true,0.7563595949617189,0.8086876155268022,1.06E9,true,0.9031358885017422,0.8074766355140187,7.95E8,true,0.8892367217727752,0.9479190101237346,1.0E9,true,0.966183574879227,0.954653937947494,8.45E8,true,0.7424226670132571,0.8487667161961368
+Running 7 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,15739,8,3,1.17E9,true,0.7563595949617189,0.8086876155268022,1.535E9,true,0.8040635723315875,0.8320127079050644,9.2E8,true,0.8068636796949475,0.8780082987551867,1.515E9,true,0.86084388185654,0.9242826940501359,1.235E9,false,0.7088300220750552,0.7806653870761356
+Running 8 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,21048,8,3,1.17E9,true,0.7563595949617189,0.8086876155268022,1.515E9,true,0.8019145802650958,0.9225686208065063,8.25E8,true,0.9339622641509434,0.9569420035149385,1.325E9,true,0.9457912457912457,0.9534962661235573,1.065E9,true,0.8146704973963009,0.8683062200956938
+Running 9 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,6559,8,3,1.17E9,true,0.7563595949617189,0.8086876155268022,1.07E9,true,0.8318566775244299,0.7385193753614806,7.95E8,true,0.8672727272727273,0.9006412540078376,1.065E9,true,0.8504029990627929,0.8469105842822475,8.05E8,true,0.7603696098562628,0.7866767830045523
+Running 10 with 8 sectors and 10 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,45816,8,3,1.17E9,true,0.7563595949617189,0.8086876155268022,1.875E9,true,0.8288937637104355,0.8307160804020101,9.1E8,true,0.9180709534368071,0.9496559633027523,1.56E9,true,0.8937201615864855,0.9318782309017806,1.4E9,true,0.7608695652173914,0.800163298632374
+Running 1 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,26299,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.47E9,true,0.6941506633268393,0.8778892408776252,1.07E9,true,0.8522405835938663,0.9187128871770182,1.35E9,true,0.8568406205923836,0.9308918173460006,1.03E9,false,0.5724074673572893,0.72140622875017
+Running 2 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,38918,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.255E9,true,0.7666666666666667,0.8023255813953488,8.15E8,true,0.9244606819763396,0.9531137896398335,1.125E9,true,0.9568496257654797,0.9673813345562944,8.85E8,true,0.728649176667597,0.8889172625127681
+Running 3 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,26885,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.905E9,true,0.7902757619738752,0.7941176470588235,1.075E9,true,0.9125996999131327,0.923096892723061,1.745E9,false,0.9423529229721784,0.9678729220304504,1.49E9,true,0.8215290112492599,0.8244578134284016
+Running 4 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,12880,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.16E9,true,0.8718046064287522,0.8798212005108557,9.9E8,true,0.9328954882924043,0.9563817330210773,1.115E9,true,0.9711936567455668,0.9716490816725283,8.15E8,false,0.6445657447840853,0.8447475518250032
+Running 5 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,62269,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.43E9,true,0.7965089572806615,0.9357798165137615,1.02E9,true,0.8437956204379562,0.9174603174603174,1.35E9,true,0.9415685058896466,0.9798387096774194,9.25E8,true,0.7421502298551479,0.8274103084808045
+Running 6 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,40664,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.67E9,true,0.7994901210962396,0.8689387642006096,1.05E9,true,0.882988947621336,0.9437596302003082,1.57E9,true,0.9516253571152806,0.9536134323738781,1.14E9,true,0.7000646412411118,0.8130630630630631
+Running 7 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,53173,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.715E9,true,0.7384615384615385,0.8209513629075361,1.09E9,true,0.8891632989073492,0.9240161766993311,1.64E9,true,0.9282805273693656,0.9344729344729344,1.285E9,false,0.6164277448015829,0.7489567741642854
+Running 8 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,60951,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,2.705E9,true,0.8835311263793463,0.8160455367101266,1.265E9,true,0.8194935217903416,0.8903494130084015,2.27E9,true,0.876611887992923,0.9507546403926345,2.26E9,true,0.7765614547223743,0.8367079483651136
+Running 9 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,5353,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.48E9,true,0.8426065162907268,0.7728735632183908,9.8E8,true,0.9183400267737617,0.9488243430152143,1.455E9,true,0.9323226317875545,0.9639052042070755,1.11E9,true,0.9134786476868327,0.9308703535811423
+Running 10 with 8 sectors and 12 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+12,30000.0,63045,8,3,1.44E9,true,0.7186279504160299,0.7872023809523809,1.815E9,true,0.6720471541930696,0.9123653413934744,1.05E9,true,0.875,0.8963414634146342,1.595E9,true,0.876856926205494,0.9140975890194387,1.215E9,false,0.7405191873589165,0.7902280391841978
+Running 1 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,62556,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,1.775E9,true,0.7796279833139574,0.781123672490579,1.1E9,true,0.8485868574233817,0.8942428497524204,1.61E9,false,0.9358099570381602,0.9749868351764086,1.125E9,false,0.5665159687562946,0.6672949674425962
+Running 2 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,32694,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,1.81E9,true,0.7635720955048686,0.8903491717862976,1.255E9,true,0.8870631635267945,0.9196957753058305,1.7E9,true,0.9355475704897867,0.9585724236293077,1.04E9,false,0.5268131118795967,0.7023376623376624
+Running 3 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 13
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 4 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,12358,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,1.715E9,true,0.7667145250059823,0.8460786902561395,1.235E9,true,0.8098468155149069,0.9191701569891825,1.765E9,true,0.8801189416733766,0.9348432787672364,1.21E9,true,0.6777613183964448,0.7430093884800812
+Running 5 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,40224,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,1.84E9,true,0.735897217731643,0.7367748530539229,1.14E9,true,0.8728591577674794,0.8947332185886403,1.72E9,true,0.9003591210664069,0.9276307537940549,1.31E9,false,0.7547941590429276,0.8310411622276029
+Running 6 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,62856,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,1.755E9,true,0.9029850746268657,0.7945590994371482,1.155E9,true,0.8723964293888762,0.8919962555581559,1.61E9,true,0.930635838150289,0.9480286738351255,1.31E9,true,0.7402087646652864,0.8199235547061634
+Running 7 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,46915,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,1.645E9,true,0.67686838048829,0.7534455083854541,1.2E9,true,0.8254987388213713,0.9130682898991821,1.57E9,true,0.8688097000458215,0.9108343803118765,1.2E9,false,0.7806993765248035,0.8632575984653198
+Running 8 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,35849,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,1.905E9,true,0.6970372543267821,0.7846905752592299,1.275E9,true,0.8725611228898849,0.927259504320794,1.825E9,true,0.8931085338875109,0.9433995666274837,1.26E9,false,0.618657937806874,0.6596858638743456
+Running 9 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,30624,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,2.05E9,true,0.8057336961692896,0.81683225619755,1.16E9,true,0.7871767871767872,0.8809742045305748,1.98E9,true,0.8549185511481344,0.9240342234897588,1.535E9,true,0.6397483064308114,0.821685759620582
+Running 10 with 8 sectors and 14 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+14,30000.0,22182,8,3,1.99E9,true,0.7955429978671474,0.8738195870064002,1.53E9,true,0.8415584415584415,0.899236758923753,1.13E9,true,0.877413591699306,0.8950651899621478,1.37E9,true,0.914490352757747,0.9135556096373814,7.9E8,false,0.6136073149149542,0.7666134381525611
+Running 1 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 15
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 2 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 15
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 3 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+16,30000.0,54051,8,3,2.665E9,true,0.8146260194947285,0.9252428829643019,2.59E9,true,0.8668198730575618,0.8812861593235425,1.365E9,true,0.9001086956521739,0.9096001757469244,2.33E9,true,0.9290970700985761,0.9316481328940143,1.385E9,true,0.8755819791856856,0.9160577841451767
+Running 4 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+16,30000.0,45971,8,3,2.665E9,true,0.8146260194947285,0.9252428829643019,2.155E9,true,0.7626467869957595,0.7938950198075835,1.31E9,true,0.8082611152976639,0.8941746561067111,1.855E9,true,0.919175392670157,0.9359767707539984,1.41E9,false,0.6183441154516048,0.7132964982778416
+Running 5 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+16,30000.0,42473,8,3,2.665E9,true,0.8146260194947285,0.9252428829643019,1.885E9,true,0.9018657238868665,0.8021326276463263,1.33E9,true,0.8442630775105002,0.8887158360128617,1.745E9,true,0.9390110398421118,0.9721060528668114,7.15E8,false,0.6399912368552829,0.7452259475218659
+Running 6 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 15
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 7 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+16,30000.0,48302,8,3,2.665E9,true,0.8146260194947285,0.9252428829643019,2.085E9,true,0.8395497574714442,0.841656862745098,1.485E9,true,0.8867721569889014,0.925787153652393,1.92E9,true,0.9510835913312693,0.9744131951786847,1.315E9,true,0.6958091904072107,0.8057898415657037
+Running 8 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+16,30000.0,21156,8,3,2.665E9,true,0.8146260194947285,0.9252428829643019,2.7E9,true,0.7955298013245033,0.8005065959472324,1.735E9,true,0.832381650259927,0.8817296426479203,2.26E9,true,0.8640546758695358,0.8777151498487764,1.915E9,false,0.5591986886245807,0.6293720395414293
+Running 9 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+16,30000.0,7868,8,3,2.665E9,true,0.8146260194947285,0.9252428829643019,2.72E9,true,0.762072707542051,0.8300827423167849,1.62E9,true,0.8246606334841629,0.8514144822216455,2.345E9,true,0.891830197859228,0.9235849848841116,1.76E9,false,0.6494464944649446,0.7378048780487805
+Running 10 with 8 sectors and 16 nodes, including optimal.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 14
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 1 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,10011,4,3,Not Run,Not Run,Not Run,Not Run,6.2E8,true,0.6818181818181818,0.7391590013140604,5.2E8,true,0.7815028901734105,0.9043478260869565,5.3E8,true,0.8833333333333333,0.9090614886731392,4.25E8,false,0.7174776564051638,0.7793959007551241
+Running 2 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 3 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 4 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 5 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:187)
+	at simulation.Driver.main(Driver.java:68)
+Running 6 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 6
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 7 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 8 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 9 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:375)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:406)
+	at simulation.Driver.main(Driver.java:49)
+Mar 11, 2011 3:59:10 AM linear.BrendansAlg run
+SEVERE: null
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI.getXcache(CplexI.java:2204)
+	at ilog.cplex.IloCplex.getValue(IloCplex.java:5109)
+	at linear.BrendansAlg.run(BrendansAlg.java:451)
+	at simulation.Driver.main(Driver.java:49)
+Mar 11, 2011 3:59:10 AM linear.BrendansAlg run
+SEVERE: null
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI.getXcache(CplexI.java:2204)
+	at ilog.cplex.IloCplex.getValue(IloCplex.java:5109)
+	at linear.BrendansAlg.run(BrendansAlg.java:451)
+	at simulation.Driver.main(Driver.java:49)
+Mar 11, 2011 3:59:10 AM linear.BrendansAlg run
+SEVERE: null
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI.getXcache(CplexI.java:2204)
+	at ilog.cplex.IloCplex.getValue(IloCplex.java:5109)
+	at linear.BrendansAlg.run(BrendansAlg.java:451)
+	at simulation.Driver.main(Driver.java:49)
+Mar 11, 2011 3:59:10 AM linear.BrendansAlg run
+SEVERE: null
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI.getXcache(CplexI.java:2204)
+	at ilog.cplex.IloCplex.getValue(IloCplex.java:5109)
+	at linear.BrendansAlg.run(BrendansAlg.java:451)
+	at simulation.Driver.main(Driver.java:49)
+Mar 11, 2011 3:59:10 AM linear.BrendansAlg run
+SEVERE: null
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI.getXcache(CplexI.java:2204)
+	at ilog.cplex.IloCplex.getValue(IloCplex.java:5109)
+	at linear.BrendansAlg.run(BrendansAlg.java:451)
+	at simulation.Driver.main(Driver.java:49)
+Mar 11, 2011 3:59:10 AM linear.BrendansAlg run
+SEVERE: null
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI.getXcache(CplexI.java:2204)
+	at ilog.cplex.IloCplex.getValue(IloCplex.java:5109)
+	at linear.BrendansAlg.run(BrendansAlg.java:451)
+	at simulation.Driver.main(Driver.java:49)
+Mar 11, 2011 3:59:10 AM linear.BrendansAlg run
+SEVERE: null
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI.getXcache(CplexI.java:2204)
+	at ilog.cplex.IloCplex.getValue(IloCplex.java:5109)
+	at linear.BrendansAlg.run(BrendansAlg.java:451)
+	at simulation.Driver.main(Driver.java:49)
+Mar 11, 2011 3:59:10 AM linear.BrendansAlg run
+SEVERE: null
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI.getXcache(CplexI.java:2204)
+	at ilog.cplex.IloCplex.getValue(IloCplex.java:5109)
+	at linear.BrendansAlg.run(BrendansAlg.java:451)
+	at simulation.Driver.main(Driver.java:49)
+Mar 11, 2011 3:59:10 AM linear.BrendansAlg run
+SEVERE: null
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI.getXcache(CplexI.java:2204)
+	at ilog.cplex.IloCplex.getValue(IloCplex.java:5109)
+	at linear.BrendansAlg.run(BrendansAlg.java:451)
+	at simulation.Driver.main(Driver.java:49)
+Mar 11, 2011 3:59:10 AM linear.BrendansAlg run
+SEVERE: null
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI.getXcache(CplexI.java:2204)
+	at ilog.cplex.IloCplex.getValue(IloCplex.java:5109)
+	at linear.BrendansAlg.run(BrendansAlg.java:451)
+	at simulation.Driver.main(Driver.java:49)
+Mar 11, 2011 3:59:10 AM linear.BrendansAlg run
+SEVERE: null
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI.getXcache(CplexI.java:2204)
+	at ilog.cplex.IloCplex.getValue(IloCplex.java:5109)
+	at linear.BrendansAlg.run(BrendansAlg.java:451)
+	at simulation.Driver.main(Driver.java:49)
+Mar 11, 2011 3:59:10 AM linear.BrendansAlg run
+SEVERE: null
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI.getXcache(CplexI.java:2204)
+	at ilog.cplex.IloCplex.getValue(IloCplex.java:5109)
+	at linear.BrendansAlg.run(BrendansAlg.java:451)
+	at simulation.Driver.main(Driver.java:49)
+Mar 11, 2011 3:59:10 AM linear.BrendansAlg run
+SEVERE: null
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI.getXcache(CplexI.java:2204)
+	at ilog.cplex.IloCplex.getValue(IloCplex.java:5109)
+	at linear.BrendansAlg.run(BrendansAlg.java:451)
+	at simulation.Driver.main(Driver.java:49)
+Number of marked vertices = 8
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 10 with 4 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:187)
+	at simulation.Driver.main(Driver.java:68)
+Running 1 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,6929,4,3,Not Run,Not Run,Not Run,Not Run,2.295E9,true,0.8774876121601715,0.8954762880962143,1.76E9,true,0.8577639321564555,0.9225225225225225,2.155E9,true,0.8700953183915314,0.9349993708317604,1.97E9,true,0.6580863962016194,0.8091529841021632
+Running 2 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,38454,4,3,Not Run,Not Run,Not Run,Not Run,1.6E9,true,0.9136066547831254,0.8844406097210239,1.215E9,true,0.8349098621420997,0.9277869432005657,1.43E9,true,0.9340641772296449,0.9496807151979566,1.29E9,false,0.6681120144534779,0.8181415929203539
+Running 3 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,8798,4,3,Not Run,Not Run,Not Run,Not Run,1.98E9,true,0.7873913269821438,0.791594703511802,1.49E9,true,0.8830946698488464,0.924175252367572,1.775E9,true,0.9270293133252419,0.9239708200447231,1.425E9,true,0.6537486417964505,0.8270963800213839
+Running 4 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,8873,4,3,Not Run,Not Run,Not Run,Not Run,1.685E9,true,0.8573943054357205,0.8642546529831275,1.275E9,true,0.7786958864738638,0.9086145462167261,1.635E9,true,0.8780145338095825,0.8830174656261612,1.235E9,false,0.6582402762043481,0.7246154759783835
+Running 5 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,39917,4,3,Not Run,Not Run,Not Run,Not Run,2.185E9,true,0.8189069019768794,0.8336188287723696,1.81E9,true,0.8789000670690812,0.914026644346795,2.055E9,true,0.9089837759302607,0.9340134361781538,1.33E9,false,0.539216582837982,0.686418315871168
+Running 6 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 13
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 7 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,12483,4,3,Not Run,Not Run,Not Run,Not Run,1.695E9,true,0.7795973154362416,0.7780308104487609,1.265E9,true,0.8339391570581721,0.8721166291981742,1.615E9,true,0.8283037592791076,0.8888519701810437,8.5E8,false,0.3732403461190753,0.47642598087701943
+Running 8 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,63494,4,3,Not Run,Not Run,Not Run,Not Run,1.695E9,true,0.8215036803364879,0.8482627578718784,1.285E9,true,0.8962480493927675,0.9256394085908486,1.63E9,true,0.9327365279971915,0.9538323460779035,1.11E9,false,0.6046374677953625,0.6364974815962805
+Running 9 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,9111,4,3,Not Run,Not Run,Not Run,Not Run,1.38E9,true,0.8638584000791061,0.7796697902722,1.15E9,true,0.9212817833507488,0.9475192548808884,1.235E9,true,0.9179116828405928,0.9204043147016671,9.15E8,false,0.6409991386735573,0.7094375595805529
+Running 10 with 4 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,16119,4,3,Not Run,Not Run,Not Run,Not Run,1.59E9,true,0.7648362867352148,0.7433694804734566,1.115E9,true,0.7758639519463296,0.8446539278131635,1.45E9,true,0.8025574959442695,0.8360672034993538,1.325E9,false,0.6437050277281269,0.7077349458301839
+Running 1 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 19
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 2 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,19098,4,3,Not Run,Not Run,Not Run,Not Run,3.45E9,true,0.7881462799495587,0.7779437391087877,2.195E9,true,0.8475723458527575,0.8730678626438344,3.02E9,true,0.8921451628680427,0.9023844859998021,2.365E9,false,0.5828400979523785,0.6456825396825396
+Running 3 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,28321,4,3,Not Run,Not Run,Not Run,Not Run,3.16E9,true,0.9137929471489439,0.8554739879487397,2.31E9,true,0.881271676300578,0.91875,2.84E9,true,0.9463334506629121,0.9542830099384761,2.205E9,true,0.5908044231119752,0.7530434445907225
+Running 4 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,7552,4,3,Not Run,Not Run,Not Run,Not Run,2.955E9,true,0.8138147566718995,0.7959058341862846,2.03E9,true,0.8401427115188583,0.8824197002141327,2.87E9,true,0.8975591151792525,0.9014884535405494,2.175E9,true,0.606296058955463,0.7372594093353074
+Running 5 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,11617,4,3,Not Run,Not Run,Not Run,Not Run,3.17E9,true,0.877198133698013,0.9182694736842105,2.37E9,true,0.8692200557103064,0.9486404323593988,2.975E9,true,0.939906016035682,0.9678631964568867,2.415E9,true,0.7661379310344828,0.866279242480505
+Running 6 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,6436,4,3,Not Run,Not Run,Not Run,Not Run,3.115E9,true,0.8798170884490103,0.9041326924727491,2.525E9,true,0.8543551088777219,0.9336786995679871,2.9E9,true,0.8958244567533021,0.9235668789808917,2.59E9,true,0.6490034829721362,0.7877980035231944
+Running 7 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 19
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 8 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 19
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 9 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,52601,4,3,Not Run,Not Run,Not Run,Not Run,3.275E9,true,0.8248943467875298,0.8926923841718035,2.54E9,true,0.8696050680684728,0.9054877192982456,3.205E9,true,0.9164495695231297,0.9432962945957115,2.42E9,true,0.7515913757700206,0.8437400950871632
+Running 10 with 4 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.NullPointerException
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:187)
+	at simulation.Driver.main(Driver.java:68)
+Running 1 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 24
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 2 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 23
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 3 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+25,30000.0,62853,4,3,Not Run,Not Run,Not Run,Not Run,4.845E9,true,0.9019314491882141,0.9078271395714804,3.245E9,true,0.8848295782784518,0.9269898211829436,4.48E9,true,0.9371028364655072,0.952614654405221,3.145E9,true,0.5911044709221978,0.7632331806124909
+Running 4 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+25,30000.0,38836,4,3,Not Run,Not Run,Not Run,Not Run,5.61E9,true,0.8421355743681641,0.86868883459046,3.42E9,true,0.8313006396588486,0.8701060070671378,5.325E9,false,0.8463891946346287,0.8892220850238137,4.255E9,true,0.6603004262496865,0.7713086774769018
+Running 5 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 24
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 6 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+25,30000.0,25157,4,3,Not Run,Not Run,Not Run,Not Run,4.605E9,true,0.8674654561118659,0.8607911090652024,3.75E9,true,0.868591723285979,0.9036144578313253,4.27E9,true,0.8955805243445693,0.9086917518066284,2.82E9,false,0.6006344410876133,0.6985747227407488
+Running 7 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+25,30000.0,24988,4,3,Not Run,Not Run,Not Run,Not Run,4.49E9,true,0.911232202496045,0.9138827677390922,2.895E9,true,0.8593168856135854,0.8985887556121424,4.16E9,true,0.9358804840127087,0.9336084698900803,3.56E9,true,0.7374803607797498,0.8102029726706089
+Running 8 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+25,30000.0,41003,4,3,Not Run,Not Run,Not Run,Not Run,4.095E9,true,0.9100022497187852,0.8881238335711933,3.19E9,true,0.8819066190011916,0.9097988377291015,3.835E9,true,0.9287429451000513,0.9588672018255164,2.725E9,true,0.6278602758547799,0.731183457443535
+Running 9 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+25,30000.0,3962,4,3,Not Run,Not Run,Not Run,Not Run,4.44E9,true,0.7779454379323848,0.8203496214728149,3.275E9,true,0.8140505668611546,0.8679006726344004,4.07E9,true,0.898861832734179,0.9124781381257316,2.93E9,true,0.4874668180850309,0.5832628450106158
+Running 10 with 4 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+25,30000.0,17768,4,3,Not Run,Not Run,Not Run,Not Run,5.78E9,true,0.7821353196772192,0.80246467380488,3.58E9,true,0.7926035868893012,0.8202496,4.84E9,false,0.8304373642929942,0.8629405534834461,4.695E9,false,0.6326816754865907,0.6790957928179455
+Running 1 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+30,30000.0,8279,4,3,Not Run,Not Run,Not Run,Not Run,7.31E9,true,0.9196513239477715,0.915810118766571,4.74E9,true,0.8919430715178943,0.9162782161864562,6.47E9,true,0.9458807845263919,0.9605309653289278,5.22E9,true,0.7733662565456171,0.8398335644937587
+Running 2 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 29
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 3 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+30,30000.0,21256,4,3,Not Run,Not Run,Not Run,Not Run,8.015E9,true,0.8532210962935852,0.8744846126193714,5.115E9,true,0.8279174083303666,0.8811614337315921,7.41E9,true,0.8629278642149929,0.8968834223550742,6.375E9,true,0.6309896712740314,0.7485805462306767
+Running 4 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+30,30000.0,37319,4,3,Not Run,Not Run,Not Run,Not Run,6.83E9,true,0.8809549385036789,0.8825032730142218,4.72E9,true,0.8001005584585825,0.8358527022717467,6.215E9,true,0.9067667893257272,0.9304889579456418,4.66E9,true,0.646528522091223,0.7580806758478644
+Running 5 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+30,30000.0,54113,4,3,Not Run,Not Run,Not Run,Not Run,7.64E9,true,0.8129547670842396,0.8070461552209462,4.515E9,true,0.8259229997872922,0.8744426213685937,6.395E9,true,0.8827448694910772,0.8960320981568207,5.48E9,false,0.5476452298237455,0.6210338017392024
+Running 6 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+30,30000.0,12862,4,3,Not Run,Not Run,Not Run,Not Run,6.935E9,true,0.9024406631921114,0.914362729765037,4.72E9,true,0.8840108723687082,0.9294284522319566,6.465E9,true,0.9195937360769624,0.9406414043379188,5.125E9,false,0.6431151103357512,0.746378664848007
+Running 7 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 29
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 8 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+30,30000.0,26502,4,3,Not Run,Not Run,Not Run,Not Run,7.985E9,true,0.8488163406313426,0.8470605472958415,4.91E9,true,0.7922738177396562,0.8356070846764411,6.825E9,true,0.8775096429631094,0.8830994326664675,6.535E9,false,0.6178629687098746,0.7135811287809483
+Running 9 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+30,30000.0,292,4,3,Not Run,Not Run,Not Run,Not Run,5.49E9,true,0.9397218286150723,0.9445057220488268,3.975E9,true,0.9059342076972694,0.957309038033353,5.085E9,true,0.9425677338218006,0.9732744262202524,3.405E9,false,0.6673300237427153,0.7766239638281839
+Running 10 with 4 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+30,30000.0,22247,4,3,Not Run,Not Run,Not Run,Not Run,6.055E9,true,0.9097765298842374,0.9085637454319796,4.36E9,true,0.8596572152127707,0.893035491978484,5.405E9,true,0.9352004353636968,0.947438360940173,3.62E9,true,0.5491744195792473,0.694567233794456
+Running 1 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 2 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,46498,6,3,Not Run,Not Run,Not Run,Not Run,1.005E9,true,0.8099822380106572,0.804268077601411,6.75E8,true,0.894698085419735,0.9467532467532468,9.4E8,true,0.8975114271203657,0.9104585265327151,7.15E8,false,0.6873613445378152,0.7444120859119039
+Running 3 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,40963,6,3,Not Run,Not Run,Not Run,Not Run,8.9E8,true,0.8194539249146757,0.8424561403508772,6.45E8,true,0.879080824088748,0.9078559738134206,8.6E8,true,0.9809018567639257,0.9887700534759358,6.35E8,true,0.8876719867914145,0.9328513591671487
+Running 4 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,27032,6,3,Not Run,Not Run,Not Run,Not Run,9.85E8,true,0.8184849732400165,0.8967523680649526,7.1E8,true,0.7085031623330991,0.8945874001774623,9.65E8,true,0.9432514560648265,0.9820458739783813,6.2E8,false,0.7392307692307692,0.8356521739130435
+Running 5 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 6 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,28498,6,3,Not Run,Not Run,Not Run,Not Run,1.25E9,true,0.8274654377880184,0.7994657168299198,8.35E8,true,0.8382626991283438,0.8806125670982002,1.26E9,true,0.8699178082191781,0.947255369928401,9.2E8,true,0.6920686835650041,0.745726872246696
+Running 7 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,590,6,3,Not Run,Not Run,Not Run,Not Run,1.045E9,true,0.5129229062673323,0.8430264357338195,8.25E8,true,0.7258064516129032,0.8591038182391921,9.1E8,true,0.7894184938036225,0.9090010976948408,8.7E8,true,0.7664810126582279,0.8182702702702702
+Running 8 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,58611,6,3,Not Run,Not Run,Not Run,Not Run,1.06E9,true,0.9081761006289308,0.8791476407914764,8.0E8,true,0.8666215301286392,0.9020436927413672,1.03E9,true,0.9293911519929917,0.9459652251448952,6.55E8,false,0.6420127197904976,0.7153397248853689
+Running 9 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,51957,6,3,Not Run,Not Run,Not Run,Not Run,9.3E8,true,0.9359174133229451,0.881004767143381,7.15E8,true,0.9092485549132948,0.9341708542713568,8.9E8,true,0.9549125979505726,0.9760936537276648,4.5E8,false,0.6864406779661016,0.7527881040892194
+Running 10 with 6 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,36648,6,3,Not Run,Not Run,Not Run,Not Run,6.85E8,true,0.6764587525150906,0.6903490759753593,6.05E8,true,0.9379244074311339,0.9715328467153285,6.55E8,true,0.9281233098972418,0.9635597978663673,3.8E8,false,0.643207126948775,0.738618925831202
+Running 1 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,60208,6,3,Not Run,Not Run,Not Run,Not Run,2.39E9,true,0.8760079312623926,0.862890625,1.425E9,true,0.7623539349570604,0.8238247375627568,2.185E9,true,0.9023507453871051,0.9230237560115034,1.91E9,true,0.7285999600559218,0.772575180008471
+Running 2 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,9213,6,3,Not Run,Not Run,Not Run,Not Run,1.84E9,true,0.8277917879081798,0.8914281735255205,1.34E9,true,0.8550476190476191,0.878258742968941,1.78E9,true,0.9303090361887983,0.9478423453743176,1.215E9,true,0.6251548356360171,0.7586432838697245
+Running 3 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,43703,6,3,Not Run,Not Run,Not Run,Not Run,2.475E9,true,0.8246428796173935,0.8649768976897689,1.445E9,true,0.8499567496056581,0.8836798391789663,2.235E9,true,0.8977960504145043,0.9465359198465146,1.76E9,true,0.7294477805251384,0.8962962962962963
+Running 4 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,30320,6,3,Not Run,Not Run,Not Run,Not Run,2.55E9,true,0.7834338461538461,0.95677138133173,1.635E9,true,0.8627133002541449,0.8954402713226981,2.495E9,true,0.8924287224701181,0.9281558102693132,1.93E9,false,0.723035861600427,0.7890901387564877
+Running 5 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,56800,6,3,Not Run,Not Run,Not Run,Not Run,2.275E9,true,0.6753669480568865,0.7352541811558205,1.49E9,true,0.8476899579992363,0.8956530509329299,2.04E9,true,0.8369230769230769,0.8765876777251185,1.7E9,true,0.7542245710184642,0.8230101096397551
+Running 6 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 14
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 7 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,55812,6,3,Not Run,Not Run,Not Run,Not Run,2.365E9,true,0.7645271036516217,0.7851851851851852,1.47E9,true,0.7799675148890092,0.8829911124731842,2.17E9,true,0.8194379187331419,0.8866732570729181,1.815E9,false,0.6549317825989711,0.7294361869965955
+Running 8 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,19109,6,3,Not Run,Not Run,Not Run,Not Run,2.77E9,true,0.8586847725606451,0.8439953629727105,1.755E9,true,0.8392152855829161,0.8720033973882578,2.25E9,true,0.9355509355509356,0.9473684210526315,2.17E9,false,0.7147692774741955,0.8577231329690346
+Running 9 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,17354,6,3,Not Run,Not Run,Not Run,Not Run,2.295E9,true,0.8241145699339679,0.8396679772826562,1.515E9,true,0.8214467856663535,0.9098558049650661,2.08E9,true,0.9222275512922995,0.9619031738091268,1.38E9,false,0.6607338017174083,0.757291977333731
+Running 10 with 6 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,21906,6,3,Not Run,Not Run,Not Run,Not Run,1.7E9,true,0.875564462257849,0.9428283700187023,1.235E9,true,0.7730976366977127,0.88592173092282,1.545E9,true,0.9332062747397742,0.9470912066656747,1.035E9,false,0.5552186588921283,0.690166706934042
+Running 1 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,35850,6,3,Not Run,Not Run,Not Run,Not Run,3.135E9,true,0.9755817335660267,0.9432086614173228,1.905E9,true,0.9057843504305504,0.9263624760689215,2.91E9,true,0.9657960766423358,0.973792548298068,1.53E9,true,0.6601522842639594,0.8114038128249567
+Running 2 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,43004,6,3,Not Run,Not Run,Not Run,Not Run,3.615E9,true,0.8324773245784876,0.8324773245784876,2.435E9,true,0.8860830904879324,0.9268034388432982,3.295E9,true,0.8997658807442092,0.9420820859907154,3.035E9,true,0.7626764645001035,0.854513196344914
+Running 3 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,46653,6,3,Not Run,Not Run,Not Run,Not Run,4.115E9,true,0.8249972350230415,0.8712497566673155,2.63E9,true,0.7897807718657228,0.8433187027554255,3.67E9,true,0.904317174701222,0.9302368948131777,2.875E9,false,0.6335511439849768,0.7575150071025982
+Running 4 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,17367,6,3,Not Run,Not Run,Not Run,Not Run,5.205E9,true,0.7966236378506222,0.8440885776518257,2.4E9,true,0.8448225286007627,0.895800933125972,4.125E9,true,0.8678563231581363,0.9050623653626233,3.825E9,true,0.7463652595332229,0.8000779263391026
+Running 5 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,13655,6,3,Not Run,Not Run,Not Run,Not Run,3.28E9,true,0.7795231913135843,0.7909112681116034,1.98E9,true,0.8483877948495997,0.8936403008889902,2.945E9,true,0.8689970442362607,0.9304323338518479,2.01E9,true,0.6970496894409938,0.7084166228300894
+Running 6 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,24326,6,3,Not Run,Not Run,Not Run,Not Run,3.4E9,true,0.910370210002165,0.9388256307211431,2.08E9,true,0.8894736842105263,0.9280137280137281,3.05E9,true,0.9445121332114935,0.9614987080103359,2.31E9,true,0.7422590068159688,0.8743404882844503
+Running 7 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,27690,6,3,Not Run,Not Run,Not Run,Not Run,4.875E9,true,0.8197984106041545,0.8194464039257783,2.495E9,true,0.7852444023967203,0.8252170743023796,3.96E9,true,0.8341720304271504,0.8650962652396977,3.88E9,false,0.7319330999611047,0.8357055623404019
+Running 8 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,3519,6,3,Not Run,Not Run,Not Run,Not Run,3.475E9,true,0.8678102899098418,0.873184312021294,2.285E9,true,0.8595316486953659,0.9038734527828269,3.265E9,true,0.8789400997650163,0.9142952099146618,2.15E9,true,0.5625532432761349,0.6785819142689372
+Running 9 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,33306,6,3,Not Run,Not Run,Not Run,Not Run,3.1E9,true,0.8497206703910615,0.9213528520949016,1.98E9,true,0.8511506730351716,0.938343705122068,2.855E9,true,0.8927249329171458,0.9482898028037927,2.225E9,false,0.6400704635076605,0.7693876758100863
+Running 10 with 6 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,40449,6,3,Not Run,Not Run,Not Run,Not Run,3.305E9,true,0.8690944997936686,0.8901908097337118,2.02E9,true,0.8922807784823967,0.9217077027332279,3.09E9,true,0.9151825936930892,0.9396811337466785,1.925E9,false,0.7086002485897314,0.7633381398702235
+Running 1 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+25,30000.0,45411,6,3,Not Run,Not Run,Not Run,Not Run,5.28E9,true,0.8936536449879162,0.8916595285225841,3.06E9,true,0.8332458286985539,0.8862849029815428,4.38E9,true,0.9221052631578948,0.9587406296851574,3.755E9,false,0.6651935721657084,0.7661755815928001
+Running 2 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 24
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 3 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+25,30000.0,55203,6,3,Not Run,Not Run,Not Run,Not Run,5.145E9,true,0.744125472622882,0.801308924209066,2.985E9,true,0.8196607830736503,0.8542369225238181,4.55E9,true,0.8704930095658573,0.8984972603482884,3.8E9,false,0.49816723446461686,0.626906170293591
+Running 4 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at ilog.cplex.CpxLinearExpr.<init>(CpxLinearExpr.java:309)
+	at ilog.cplex.CpxLinearNumExpr.<init>(CpxLinearNumExpr.java:41)
+	at ilog.cplex.IloCplexModeler.linearNumExpr(IloCplexModeler.java:842)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:193)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Running 5 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+25,30000.0,1014,6,3,Not Run,Not Run,Not Run,Not Run,4.745E9,true,0.8789141797336031,0.8715666276542384,2.925E9,true,0.8964049505598848,0.9278790754422829,4.14E9,true,0.9456983240223463,0.9553846153846154,2.73E9,false,0.7135375777884155,0.7857564575645757
+Running 6 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 23
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 7 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at ilog.cplex.CpxLinearExpr.<init>(CpxLinearExpr.java:309)
+	at ilog.cplex.CpxLinearNumExpr.<init>(CpxLinearNumExpr.java:41)
+	at ilog.cplex.CpxQextractor.<init>(CpxQextractor.java:34)
+	at ilog.cplex.CpxRange.<init>(CpxRange.java:1333)
+	at ilog.cplex.IloCplexModeler.addRange(IloCplexModeler.java:4037)
+	at ilog.cplex.IloCplexModeler.addEq(IloCplexModeler.java:4227)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:108)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Running 8 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+25,30000.0,60276,6,3,Not Run,Not Run,Not Run,Not Run,4.64E9,true,0.8498325229605619,0.882102058799968,2.855E9,true,0.8348786889443698,0.8919800287258054,4.04E9,true,0.8619804594665963,0.9267054648687012,3.7E9,true,0.7001662191535609,0.8261295919137059
+Running 9 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 24
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 10 with 6 sectors and 25 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+25,30000.0,54648,6,3,Not Run,Not Run,Not Run,Not Run,6.54E9,true,0.8025861005096327,0.8291526384134105,3.355E9,true,0.8367625331041212,0.8693169860501038,5.005E9,true,0.826921124842683,0.8713620453507838,5.01E9,false,0.6284254999530561,0.7420576496674057
+Running 1 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.lang.AbstractStringBuilder.<init>(AbstractStringBuilder.java:45)
+	at java.lang.StringBuilder.<init>(StringBuilder.java:68)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:103)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Running 2 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+30,30000.0,7596,6,3,Not Run,Not Run,Not Run,Not Run,6.615E9,true,0.8771515890706706,0.9029758554502028,3.485E9,true,0.8409219158401274,0.8888321715425289,5.52E9,true,0.9416214712835489,0.9607264472190692,4.7E9,true,0.7374764217871034,0.8352712079103095
+Running 3 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+30,30000.0,14363,6,3,Not Run,Not Run,Not Run,Not Run,9.285E9,true,0.7989870412825391,0.8017245036137896,5.025E9,true,0.80304114490161,0.8301689064233757,7.76E9,true,0.8627966787738113,0.8928268540758533,7.6E9,true,0.648282209277529,0.7611968819393652
+Running 4 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at ilog.cplex.CpxQExpr.<init>(CpxQExpr.java:35)
+	at ilog.cplex.CpxQextractor.visitNegative(CpxQextractor.java:52)
+	at ilog.cplex.CpxNegative.accept(CpxNegative.java:23)
+	at ilog.cplex.CpxQextractor.visitLinkedExpr(CpxQextractor.java:80)
+	at ilog.cplex.CpxLinkedExpr.accept(CpxLinkedExpr.java:46)
+	at ilog.cplex.CpxRange.<init>(CpxRange.java:1334)
+	at ilog.cplex.IloCplexModeler.addRange(IloCplexModeler.java:4037)
+	at ilog.cplex.IloCplexModeler.addLe(IloCplexModeler.java:4443)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:158)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Running 5 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at ilog.cplex.CpxQExpr.<init>(CpxQExpr.java:34)
+	at ilog.cplex.CpxQextractor.visitNegative(CpxQextractor.java:52)
+	at ilog.cplex.CpxNegative.accept(CpxNegative.java:23)
+	at ilog.cplex.CpxQextractor.visitLinkedExpr(CpxQextractor.java:80)
+	at ilog.cplex.CpxLinkedExpr.accept(CpxLinkedExpr.java:46)
+	at ilog.cplex.CpxRange.<init>(CpxRange.java:1334)
+	at ilog.cplex.IloCplexModeler.addRange(IloCplexModeler.java:4037)
+	at ilog.cplex.IloCplexModeler.addLe(IloCplexModeler.java:4443)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:158)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Running 6 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at ilog.cplex.CpxQExpr.<init>(CpxQExpr.java:34)
+	at ilog.cplex.CpxQextractor.visitNegative(CpxQextractor.java:52)
+	at ilog.cplex.CpxNegative.accept(CpxNegative.java:23)
+	at ilog.cplex.CpxQextractor.visitLinkedExpr(CpxQextractor.java:80)
+	at ilog.cplex.CpxLinkedExpr.accept(CpxLinkedExpr.java:46)
+	at ilog.cplex.CpxRange.<init>(CpxRange.java:1334)
+	at ilog.cplex.IloCplexModeler.addRange(IloCplexModeler.java:4037)
+	at ilog.cplex.IloCplexModeler.addLe(IloCplexModeler.java:4443)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:158)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Running 7 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at ilog.cplex.CpxQExpr.<init>(CpxQExpr.java:35)
+	at ilog.cplex.CpxQextractor.visitNegative(CpxQextractor.java:52)
+	at ilog.cplex.CpxNegative.accept(CpxNegative.java:23)
+	at ilog.cplex.CpxQextractor.visitLinkedExpr(CpxQextractor.java:80)
+	at ilog.cplex.CpxLinkedExpr.accept(CpxLinkedExpr.java:46)
+	at ilog.cplex.CpxRange.<init>(CpxRange.java:1334)
+	at ilog.cplex.IloCplexModeler.addRange(IloCplexModeler.java:4037)
+	at ilog.cplex.IloCplexModeler.addLe(IloCplexModeler.java:4443)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:207)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Running 8 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at ilog.cplex.CpxQExpr.<init>(CpxQExpr.java:35)
+	at ilog.cplex.CpxQextractor.visitNegative(CpxQextractor.java:52)
+	at ilog.cplex.CpxNegative.accept(CpxNegative.java:23)
+	at ilog.cplex.CpxQextractor.visitLinkedExpr(CpxQextractor.java:80)
+	at ilog.cplex.CpxLinkedExpr.accept(CpxLinkedExpr.java:46)
+	at ilog.cplex.CpxRange.<init>(CpxRange.java:1334)
+	at ilog.cplex.IloCplexModeler.addRange(IloCplexModeler.java:4037)
+	at ilog.cplex.IloCplexModeler.addLe(IloCplexModeler.java:4443)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:158)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Running 9 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at ilog.cplex.CpxLinearExpr.makeSpace(CpxLinearExpr.java:323)
+	at ilog.cplex.CpxLinearExpr.addCoefs(CpxLinearExpr.java:355)
+	at ilog.cplex.CpxLinearExpr.addCoefs(CpxLinearExpr.java:362)
+	at ilog.cplex.CpxQextractor.visitLinearExpr(CpxQextractor.java:43)
+	at ilog.cplex.CpxLinearExpr.accept(CpxLinearExpr.java:43)
+	at ilog.cplex.CpxObjective.setExpr(CpxObjective.java:117)
+	at ilog.cplex.CpxObjective.<init>(CpxObjective.java:325)
+	at ilog.cplex.IloCplexModeler.objective(IloCplexModeler.java:690)
+	at ilog.cplex.IloCplexModeler.maximize(IloCplexModeler.java:676)
+	at ilog.cplex.IloCplexModeler.maximize(IloCplexModeler.java:716)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:287)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Running 10 with 6 sectors and 30 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at ilog.cplex.CpxLinearExpr.<init>(CpxLinearExpr.java:309)
+	at ilog.cplex.CpxLinearNumExpr.<init>(CpxLinearNumExpr.java:41)
+	at ilog.cplex.CpxQextractor.<init>(CpxQextractor.java:34)
+	at ilog.cplex.CpxRange.<init>(CpxRange.java:1333)
+	at ilog.cplex.IloCplexModeler.addRange(IloCplexModeler.java:4037)
+	at ilog.cplex.IloCplexModeler.addEq(IloCplexModeler.java:4227)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:108)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+Running 1 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,42665,8,3,Not Run,Not Run,Not Run,Not Run,1.045E9,true,0.7314938154138916,0.8551724137931035,7.0E8,true,0.9099350046425255,0.9289099526066351,1.025E9,true,0.9370122630992196,0.9610107477704093,8.05E8,false,0.8032537960954447,0.8712941176470588
+Running 2 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 8
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 3 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,52579,8,3,Not Run,Not Run,Not Run,Not Run,9.1E8,true,0.8952565343659245,0.8523502304147466,7.65E8,true,0.8047095221725679,0.8345454545454546,9.15E8,true,0.9367552447552447,0.9473550212164074,7.55E8,true,0.8128698752228164,0.8699351392598245
+Running 4 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 9
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 5 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,61413,8,3,Not Run,Not Run,Not Run,Not Run,1.28E9,true,0.8022222222222222,0.7966896551724137,8.65E8,true,0.8543819583214388,0.8573188198224004,1.16E9,true,0.9377003484320557,0.9299239806496199,8.65E8,true,0.6978083469340173,0.7936621585786263
+Running 6 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 2
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 7 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,16920,8,3,Not Run,Not Run,Not Run,Not Run,1.31E9,true,0.7839234449760766,0.9071982281284607,8.15E8,true,0.876575387660838,0.8991201353637902,1.25E9,true,0.951873286628084,0.9942729875914731,8.35E8,true,0.7208322563970018,0.8993550467591099
+Running 8 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,53292,8,3,Not Run,Not Run,Not Run,Not Run,1.35E9,true,0.9048705063780441,0.7784835384103758,8.1E8,true,0.8582079790712884,0.9208421052631579,1.23E9,true,0.9171870263716277,0.964859693877551,1.0E9,true,0.693000693000693,0.9302325581395349
+Running 9 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,55450,8,3,Not Run,Not Run,Not Run,Not Run,1.18E9,true,0.868517049960349,0.8644041041831098,7.65E8,true,0.8757575757575757,0.8890619065704519,1.12E9,true,0.9553693830921554,0.980766223612197,9.0E8,true,0.7736389684813754,0.8857299070530344
+Running 10 with 8 sectors and 10 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+10,30000.0,8546,8,3,Not Run,Not Run,Not Run,Not Run,1.01E9,true,0.7725321888412017,0.8955223880597015,7.2E8,true,0.7416309012875536,0.8816326530612245,9.8E8,true,0.8876155268022181,0.9397260273972603,5.6E8,true,0.6644067796610169,0.9063583815028902
+Running 1 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,58859,8,3,Not Run,Not Run,Not Run,Not Run,2.505E9,true,0.7360517286883083,0.8119068413391558,1.4E9,true,0.806086777709233,0.8679287058563047,1.945E9,true,0.8120475462180364,0.8724437141456945,1.635E9,false,0.5940004999583368,0.6495307517084282
+Running 2 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,18521,8,3,Not Run,Not Run,Not Run,Not Run,2.245E9,true,0.8711433756805808,0.8530805687203792,1.32E9,true,0.837490987743331,0.9078546307151231,2.06E9,true,0.8907640638119227,0.9275628415300546,1.675E9,true,0.6933246841503722,0.8082172049980195
+Running 3 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,51564,8,3,Not Run,Not Run,Not Run,Not Run,2.57E9,true,0.8275013626099821,0.8002108274979294,1.55E9,true,0.8754668853056391,0.9077170114291112,2.265E9,true,0.9052206709455436,0.9253026716266486,2.085E9,true,0.7773486220076443,0.8163227941694247
+Running 4 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,41421,8,3,Not Run,Not Run,Not Run,Not Run,2.905E9,true,0.7298024506126531,0.775531462585034,1.405E9,true,0.8338455039864829,0.8699498705448135,2.31E9,true,0.889461182647831,0.8833871368264217,2.275E9,true,0.7478551431409736,0.7703972462554656
+Running 5 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 12
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 6 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,27877,8,3,Not Run,Not Run,Not Run,Not Run,2.27E9,true,0.7870808802037663,0.7928412197686646,1.475E9,true,0.8728248332581114,0.8842656099171874,1.88E9,true,0.9485775630703167,0.9489595918915291,1.245E9,false,0.6317285648784962,0.6363972286374134
+Running 7 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 14
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 8 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 14
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 9 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,13211,8,3,Not Run,Not Run,Not Run,Not Run,2.66E9,true,0.8730705902960239,0.8566841978618817,1.435E9,true,0.8918737480374641,0.9252344846953103,2.415E9,true,0.9342584249414309,0.9578493564082035,1.64E9,true,0.6959311727796106,0.9199931588848982
+Running 10 with 8 sectors and 15 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+15,30000.0,2663,8,3,Not Run,Not Run,Not Run,Not Run,2.45E9,true,0.8101664840039664,0.8816720622479696,1.415E9,true,0.7850708229181983,0.8454895750857746,1.975E9,true,0.915075804228615,0.9276435090222658,1.68E9,false,0.6897360703812316,0.7910868194240067
+Running 1 with 8 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,28361,8,3,Not Run,Not Run,Not Run,Not Run,3.985E9,true,0.7906291575468865,0.8539586520187271,2.21E9,true,0.79844695111983,0.8366050017129154,3.465E9,true,0.8386285055704956,0.8662187511273042,2.89E9,false,0.6848790487904879,0.7275348432055749
+Running 2 with 8 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,12867,8,3,Not Run,Not Run,Not Run,Not Run,4.475E9,true,0.8252376320792254,0.8375308475793063,2.195E9,true,0.8558530953015365,0.8999766507892033,3.865E9,true,0.9268901436416095,0.9536964918440961,3.325E9,true,0.7562245630835528,0.7934564179854308
+Running 3 with 8 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+ilog.cplex.CpxException: CPLEX Error  1217: No solution exists.
+
+	at ilog.cplex.CplexI.CALL(CplexI.java:3773)
+	at ilog.cplex.CplexI._getObjValue(CplexI.java:4900)
+	at ilog.cplex.CplexI.getObjValue(CplexI.java:2526)
+	at ilog.cplex.IloCplex.getObjValue(IloCplex.java:4811)
+	at linear.BrendansAlg.runModel(BrendansAlg.java:292)
+	at linear.BrendansAlg.run(BrendansAlg.java:394)
+	at simulation.Driver.main(Driver.java:49)
+n,side,seed,sectors,neighbors,Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),
+20,30000.0,41391,8,3,Not Run,Not Run,Not Run,Not Run,3.29E9,true,0.8263549415515409,0.8260623229461757,2.015E9,true,0.8899123287671233,0.8910841654778887,2.76E9,true,0.9394006659267481,0.9382436260623229,2.215E9,false,0.6969564599758505,0.7690610549416098
+Running 4 with 8 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".
+Number of marked vertices = 19
+Exception in thread "main" java.lang.RuntimeException: Prims-based algorithm: not all nodes are marked
+	at simulation.PrimsBasedAlgorithm.run(PrimsBasedAlgorithm.java:221)
+	at simulation.Driver.main(Driver.java:68)
+Running 5 with 8 sectors and 20 nodes.
+IBM ILOG License Manager: "IBM ILOG Optimization Suite for Academic Initiative" is accessing CPLEX 12 with option(s): "e m b q ".

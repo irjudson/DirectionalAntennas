@@ -47,7 +47,6 @@ public class MaxTotalWeightLP {
         double threshold = Math.pow(10, 6);
 
         // c[u][v][j] = transmission rates from u to v, assuming u uses exactly j antenna sectors
-        //System.out.println("C values");
         double c[][][] = new double[nodeNumber][nodeNumber][beams + 1];
         for (int i = 0; i < nodeNumber; i++) {
             for (int j = 0; j < nodeNumber; j++) {
@@ -59,13 +58,11 @@ public class MaxTotalWeightLP {
                 double distance = vertices[i].point.distance(vertices[j].point);
                 for (int k = 1; k < beams + 1; k++) {
                     c[i][j][k] = throughput.calculateThroughput(k, distance);
-                    //System.out.println((i+1)+" "+(j+1)+" "+k+" "+c[i][j][k]);
                 }
             }
         }
 
         // sector[u][v]: the sector of u that node v falls in
-        //System.out.println("S values");
         int sector[][] = new int[nodeNumber][nodeNumber];
         for (int i = 0; i < nodeNumber; i++) {
             for (int j = 0; j < nodeNumber; j++) {
@@ -74,7 +71,6 @@ public class MaxTotalWeightLP {
                 }
 
                 sector[i][j] = vertices[i].point.beamIndex(beams, vertices[j].point);
-                //System.out.println((i + 1) + " " + (j + 1) + " " + sector[i][j]);
             }
         }
 
@@ -154,11 +150,11 @@ public class MaxTotalWeightLP {
                 }
             }
             //int xx = 1;
-            for (int i = 0; i < 256; i++) {
+            for (int i = 0; i < Math.pow(2.0, beams); i++) {
                 int j = i;
                 int k = 1;
                 int n = 0;
-                int[] element = new int[8];
+                int[] element = new int[beams];
                 while (j > 0) {
                     if ((j % 2) == 1) {
                         element[n++] = k;

@@ -10,12 +10,19 @@ public class CmdLineOptions {
     @Option(name = "-s", aliases = {"--seed"}, metaVar = "SEED",
     usage = "Specify the seed.")
     public int seed = 1532;
+
+    @Option(name = "-r", aliases = {"--randomSeed"}, metaVar = "RANDOMSEED",
+    usage = "Use a random seed.")
+    public boolean randomSeed = false;
+    
     @Option(name = "-n", aliases = {"--nodes"}, metaVar = "NODES",
     usage = "Specify the number of nodes.")
     public int nodeNumber = 10;
+
     @Option(name = "-b", aliases = {"--beams"}, metaVar = "BEAMS",
     usage = "Specify the number of beams.")
     public int beams = 8;
+    
     @Option(name = "-l", aliases = {"--sideLength"}, metaVar = "LENGTH",
     usage = "Specify the length of the square side.")
     public double squareSide = 30000.0;
