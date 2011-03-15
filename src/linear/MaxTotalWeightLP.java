@@ -325,24 +325,20 @@ public class MaxTotalWeightLP {
                 totalWeight = 0;
                 for (int i = 0; i < nodeNumber - 1; i++) {
                     for (int j = i + 1; j < nodeNumber; j++) {
-                        //int index1 = vertices[i].point.beamIndex(beams, vertices[j].point);
                         int index1 = sector[i][j];
                         if (!vertices[i].activeBeams[index1]) {
                             continue;
                         }
-                        //int index2 = vertices[j].point.beamIndex(beams, vertices[i].point);
                         int index2 = sector[j][i];
                         if (!vertices[j].activeBeams[index2]) {
                             continue;
                         }
 
-                        //double dist = vertices[i].point.distance(vertices[j].point);
-                        //double weightItoJ = throughput.calculateThroughput(vertices[i].beamsUsedNumber, dist);
                         double weightItoJ = c[i][j][vertices[i].beamsUsedNumber];
                         if (weightItoJ < threshold) {
                             continue;
                         }
-                        //double weightJtoI = throughput.calculateThroughput(vertices[j].beamsUsedNumber, dist);
+
                         double weightJtoI = c[j][i][vertices[j].beamsUsedNumber];
                         if (weightJtoI < threshold) {
                             continue;
@@ -351,6 +347,7 @@ public class MaxTotalWeightLP {
                         // create a new list element and add it to vertix i's list
                         ListElement elem1 = new ListElement(j, weightItoJ);
                         vertices[i].vertices.add(elem1);
+
                         // create a new list element and add it to vertix j's list
                         ListElement elem2 = new ListElement(i, weightJtoI);
                         vertices[j].vertices.add(elem2);
@@ -365,6 +362,7 @@ public class MaxTotalWeightLP {
                         vertices[j].inThroughput += i_to_j;
 
                         // update total weight
+//                        System.out.println("Optimal total Weight = " + totalWeight + " + " + weightItoJ + " + " + weightJtoI);
                         totalWeight += weightItoJ + weightJtoI;
                     }
                 }
