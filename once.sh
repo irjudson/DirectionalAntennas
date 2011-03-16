@@ -6,11 +6,9 @@ CPLEXPATH="/Users/judson/Projects/phd/Tools/cplex"
 
 JLPATH="./dist/lib:${CPLEXPATH}/cplex/bin/x86-64_darwin9_gcc4.0:${CPLEXPATH}/lib:${CPLEXPATH}/lib/x86-64_darwin9_gcc4.0"
 
-JAVA_OPTIONS="-Djava.library.path=${JLPATH} -Xmx2048m"
+JAVA_OPTIONS="-server -Djava.library.path=${JLPATH} -Xmx2048m -cp ./jars/args4j-2.0.16.jar"
 
 CMD="java $JAVA_OPTIONS -jar dist/DirectionalAntennas.jar"
-
-#$CMD -n 10 -b 8 -s 1532 -o
 
 # Runs including the optimal solution
 for nodes in 8 10 12 14 16; do

@@ -4,3 +4,4 @@ dist/*
 core
 *.o*
 *.log
+nbproject/project.properties
