@@ -33,15 +33,15 @@ public class Driver {
             System.exit(1);
         }
 
+        if (options.randomSeed) {
+            options.seed = generator.nextInt(65536)+1;
+        }
+        
         if (options.optimum) {
             optimal = new MaxTotalWeightLP(options.nodeNumber,
                     options.seed, options.squareSide, options.beams);
             optimal.run();
             optimalGraph = optimal.getGraph();
-        }
-
-        if (options.randomSeed) {
-            options.seed = generator.nextInt(65536)+1;
         }
 
         BrendansAlg brendan = new BrendansAlg(options.nodeNumber, options.seed,
