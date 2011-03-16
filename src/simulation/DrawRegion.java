@@ -14,15 +14,17 @@ public class DrawRegion extends JPanel{
     private JFrame frame;
     private Vertex[] topologyGraph;
     private double squareSide;
+    private double total;
 
     // Constructor
-    public DrawRegion(Vertex[] topologyGraph, double squareSide, String frameName){
+    public DrawRegion(Vertex[] topologyGraph, double squareSide, String frameName, double total){
         this.topologyGraph = topologyGraph;
         this.squareSide = squareSide;
+        this.total = total;
 
         frame = new JFrame(frameName);
         frame.setBackground(Color.WHITE);
-        int size = 900;
+        int size = 450;
         frame.setSize(size, size);
         frame.getContentPane().add(this);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -57,6 +59,10 @@ public class DrawRegion extends JPanel{
             for(ListElement elem: topologyGraph[i].vertices){
                 g2.drawLine(xCoor[i], yCoor[i], xCoor[elem.vertexNumber], yCoor[elem.vertexNumber]);
             }
-        }        
+        }
+
+        // write label
+        g2.setColor(Color.DARK_GRAY);
+        g2.drawString("Total: "+Double.toString(total), 200, 425);
     }
 }

@@ -121,7 +121,6 @@ public class MSTAlgorithm {
             if(array[i].path != null){
                 Edge e = new Edge(i, array[i].path.vertexNumber);
                 edges.add(e);
-                //System.out.println("MST edge (" + e.endPoint1 + ", " + e.endPoint2 + ")");
             }
         }
 
@@ -175,6 +174,7 @@ public class MSTAlgorithm {
                 // create a new list element and add it to vertix i's list
                 ListElement elem1 = new ListElement(j, weightItoJ);
                 newGraph[i].vertices.add(elem1);
+
                 // create a new list element and add it to vertix j's list
                 ListElement elem2 = new ListElement(i, weightJtoI);
                 newGraph[j].vertices.add(elem2);
@@ -186,6 +186,7 @@ public class MSTAlgorithm {
 		newGraph[j].inThroughput += weightItoJ;
 
                 // update total weight
+//                System.out.println("MST total Weight = " + totalWeight + " + " + weightItoJ + " + " + weightJtoI);
                 totalWeight += weightItoJ + weightJtoI;
             }
         }

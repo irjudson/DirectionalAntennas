@@ -71,16 +71,21 @@ public class Driver {
         if (options.graphs) {
             if (options.optimum) {
                 DrawRegion draw = new DrawRegion(optimalGraph,
-                        options.squareSide, "The optimal graph topology");
+                        options.squareSide, "The optimal graph topology",
+                        optimal.getTotalWeight());
             }
             DrawRegion draw1 = new DrawRegion(brendanGraph,
-                    options.squareSide, "The Brendan graph topology");
+                    options.squareSide, "The Brendan graph topology",
+                    brendan.getTotalWeight());
             DrawRegion draw2 = new DrawRegion(mstGraph,
-                    options.squareSide, "The MST-based graph topology");
+                    options.squareSide, "The MST-based graph topology",
+                    mst.getTotalWeight());
             DrawRegion draw3 = new DrawRegion(knnGraph,
-                    options.squareSide, "The k nearest neighbors-based graph topology");
+                    options.squareSide, "The k nearest neighbors-based graph topology",
+                    knn.getTotalWeight());
             DrawRegion draw4 = new DrawRegion(primsGraph,
-                    options.squareSide, "The Prim's-based graph topology");
+                    options.squareSide, "The Prim's-based graph topology",
+                    prims.getTotalWeight());
         }
 
 	// Output in one line

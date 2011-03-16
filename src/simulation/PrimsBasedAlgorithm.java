@@ -266,6 +266,7 @@ public class PrimsBasedAlgorithm {
 		vertices[j].inThroughput += weightItoJ;
 
                 // update total weight
+//                System.out.println("Prim's total Weight = " + totalWeight + " + " + weightItoJ + " + " + weightJtoI);
                 totalWeight += weightItoJ + weightJtoI;
             }
         }
