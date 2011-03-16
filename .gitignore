@@ -1,2 +1,6 @@
 build/*
+results/*
 dist/*
+core
+*.o*
+*.log
