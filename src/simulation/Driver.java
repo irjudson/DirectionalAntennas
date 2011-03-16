@@ -63,10 +63,10 @@ public class Driver {
         knn.constructNewGraph();
         Vertex[] knnGraph = knn.getNewGraph();
 
-        PrimsBasedAlgorithm prims = new PrimsBasedAlgorithm(options.nodeNumber,
-                options.seed, options.squareSide, options.beams);
-        prims.run();
-        Vertex[] primsGraph = prims.getGraph();
+//        PrimsBasedAlgorithm prims = new PrimsBasedAlgorithm(options.nodeNumber,
+//                options.seed, options.squareSide, options.beams);
+//        prims.run();
+//        Vertex[] primsGraph = prims.getGraph();
 
         if (options.graphs) {
             if (options.optimum) {
@@ -83,9 +83,9 @@ public class Driver {
             DrawRegion draw3 = new DrawRegion(knnGraph,
                     options.squareSide, "The k nearest neighbors-based graph topology",
                     knn.getTotalWeight());
-            DrawRegion draw4 = new DrawRegion(primsGraph,
-                    options.squareSide, "The Prim's-based graph topology",
-                    prims.getTotalWeight());
+//            DrawRegion draw4 = new DrawRegion(primsGraph,
+//                    options.squareSide, "The Prim's-based graph topology",
+//                    prims.getTotalWeight());
         }
 
 	// Output in one line
@@ -95,7 +95,7 @@ public class Driver {
 	headers += "Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),";
 	headers += "MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),";
 	headers += "K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),";
-	headers += "Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),";
+	//headers += "Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),";
 	System.out.println(headers);
         if (options.optimum) {
             System.out.println(options.nodeNumber + ","
@@ -118,11 +118,11 @@ public class Driver {
                     + knn.getTotalWeight() + ","
                     + Utilities.checkForConnectivity(knnGraph) + ","
                     + Utilities.inFairness(knnGraph) + ","
-                    + Utilities.outFairness(knnGraph) + ","
-                    + prims.getTotalWeight() + ","
-                    + Utilities.checkForConnectivity(primsGraph) + ","
-                    + Utilities.inFairness(primsGraph) + ","
-                    + Utilities.outFairness(primsGraph));
+                    + Utilities.outFairness(knnGraph));
+//                    + prims.getTotalWeight() + ","
+//                    + Utilities.checkForConnectivity(primsGraph) + ","
+//                    + Utilities.inFairness(primsGraph) + ","
+//                    + Utilities.outFairness(primsGraph));
         } else {
             System.out.println(options.nodeNumber + ","
                     + options.squareSide + ","
@@ -144,11 +144,11 @@ public class Driver {
                     + knn.getTotalWeight() + ","
                     + Utilities.checkForConnectivity(knnGraph) + ","
                     + Utilities.inFairness(knnGraph) + ","
-                    + Utilities.outFairness(knnGraph) + ","
-                    + prims.getTotalWeight() + ","
-                    + Utilities.checkForConnectivity(primsGraph) + ","
-                    + Utilities.inFairness(primsGraph) + ","
-                    + Utilities.outFairness(primsGraph));
+                    + Utilities.outFairness(knnGraph));
+//                    + prims.getTotalWeight() + ","
+//                    + Utilities.checkForConnectivity(primsGraph) + ","
+//                    + Utilities.inFairness(primsGraph) + ","
+//                    + Utilities.outFairness(primsGraph));
         }
     }
 }
