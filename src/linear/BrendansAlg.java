@@ -88,6 +88,8 @@ public class BrendansAlg {
     public void runModel() {
         // create an ILP
         try {
+            if (cplex != null)
+                cplex.clearModel();
 
             cplex = new IloCplex();
 
