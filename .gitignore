@@ -5,3 +5,6 @@ core
 *.o*
 *.log
 nbproject/project.properties
+*.eps
+*.pdf
+*.csv
