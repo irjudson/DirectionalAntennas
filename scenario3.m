@@ -11,7 +11,7 @@ hold on;
 plot(X,SSPMST,'-.sc','LineWidth',3);
 plot(X,SSPkNN,'--og ','LineWidth',3);
 xlabel('Number of Sectors');
-ylabel('Throughput (Mbps)');
+ylabel('Total Capacity (Mbps)');
 legend('SSP-LPR','SSP-MST','SSP-kNN', "Location", "NorthWest");
 set(gca, 'XTickMode', 'manual', 'XTick', X);
 hold off;

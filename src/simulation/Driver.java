@@ -1,8 +1,7 @@
 package simulation;
 
 import java.util.Random;
-import linear.MaxTotalWeightLP;
-import linear.BrendansAlg;
+import linear.*;
 
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
@@ -34,9 +33,9 @@ public class Driver {
         }
 
         if (options.randomSeed) {
-            options.seed = generator.nextInt(65536)+1;
+            options.seed = generator.nextInt(65536) + 1;
         }
-        
+
         if (options.optimum) {
             optimal = new MaxTotalWeightLP(options.nodeNumber,
                     options.seed, options.squareSide, options.beams);
@@ -48,6 +47,11 @@ public class Driver {
                 options.squareSide, options.beams);
         brendan.run();
         Vertex[] brendanGraph = brendan.getGraph();
+
+        MSTPlus mstPlus = new MSTPlus(options.nodeNumber, options.seed,
+                options.squareSide, options.beams);
+        mstPlus.run();
+        Vertex[] mstPlusGraph = mstPlus.getGraph();
 
         MSTAlgorithm mst = new MSTAlgorithm(options.nodeNumber, options.seed,
                 options.squareSide, options.beams);
@@ -83,20 +87,24 @@ public class Driver {
             DrawRegion draw3 = new DrawRegion(knnGraph,
                     options.squareSide, "The k nearest neighbors-based graph topology",
                     knn.getTotalWeight());
+            DrawRegion draw4 = new DrawRegion(mstPlusGraph,
+                    options.squareSide, "The MSTPlus-based graph topology",
+                    mstPlus.getTotalWeight());
 //            DrawRegion draw4 = new DrawRegion(primsGraph,
 //                    options.squareSide, "The Prim's-based graph topology",
 //                    prims.getTotalWeight());
         }
 
-	// Output in one line
-	// Headers first
-	String headers = "n,side,seed,sectors,neighbors,";
-	headers += "Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),";
-	headers += "Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),";
-	headers += "MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),";
-	headers += "K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),";
-	//headers += "Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),";
-	System.out.println(headers);
+        // Output in one line
+        // Headers first
+        String headers = "n,side,seed,sectors,neighbors,";
+        headers += "Optimal Total,Optimal Connected,Optimal Fairness (in),Optimal Fairness (out),";
+        headers += "Brendan Total,Brendan Connected,Brendan Fairness (in),Brendan Fairness (out),";
+        headers += "MinSpanTree Total,MinSpanTree Connected,MinSpanTree Fairness (in),MinSpanTree Fairness (out),";
+        headers += "K-nearest Total,K-nearest Connected,K-nearest Fairness (in),K-nearest Fairness (out),";
+        headers += "MSTPlus Total,MSTPlus Connected,MSTPlus Fairness (in),MSTPlus Fairness (out),";
+        //headers += "Prim's Total,Prim's Connected,Prim's Fairness (in),Prim's Fairness (out),";
+        System.out.println(headers);
         if (options.optimum) {
             System.out.println(options.nodeNumber + ","
                     + options.squareSide + ","
@@ -118,7 +126,12 @@ public class Driver {
                     + knn.getTotalWeight() + ","
                     + Utilities.checkForConnectivity(knnGraph) + ","
                     + Utilities.inFairness(knnGraph) + ","
-                    + Utilities.outFairness(knnGraph));
+                    + Utilities.outFairness(knnGraph) + ","
+                    + mstPlus.getTotalWeight() + ","
+                    + Utilities.checkForConnectivity(mstPlusGraph) + ","
+                    + Utilities.inFairness(mstPlusGraph) + ","
+                    + Utilities.outFairness(mstPlusGraph) );
+            
 //                    + prims.getTotalWeight() + ","
 //                    + Utilities.checkForConnectivity(primsGraph) + ","
 //                    + Utilities.inFairness(primsGraph) + ","
@@ -144,7 +157,11 @@ public class Driver {
                     + knn.getTotalWeight() + ","
                     + Utilities.checkForConnectivity(knnGraph) + ","
                     + Utilities.inFairness(knnGraph) + ","
-                    + Utilities.outFairness(knnGraph));
+                    + Utilities.outFairness(knnGraph) + ","
+                    + mstPlus.getTotalWeight() + ","
+                    + Utilities.checkForConnectivity(mstPlusGraph) + ","
+                    + Utilities.inFairness(mstPlusGraph) + ","
+                    + Utilities.outFairness(mstPlusGraph) );
 //                    + prims.getTotalWeight() + ","
 //                    + Utilities.checkForConnectivity(primsGraph) + ","
 //                    + Utilities.inFairness(primsGraph) + ","

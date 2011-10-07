@@ -1,20 +1,20 @@
 figure(1);
 X = [ 8, 10, 12, 14, 16 ];
-SSPOPT = [ 1.02e+09, 9.90e+08, 1.44e+09, 2.69e+09, 2.70e+09 ];
-SSPLPR = [ 1.02e+09, 9.30e+08, 1.37e+09, 2.60e+09, 2.52e+09 ];
-SSPMST = [ 6.15e+08, 7.35e+08, 1.02e+09, 1.21e+09, 1.63e+09 ];
+SSPOPT = [ 1.02e+09, 9.90e+08, 1.44e+09, 2.69e+09, 2.64e+09 ];
+SSPLPR = [ 1.02e+09, 9.30e+08, 1.37e+09, 2.60e+09, 2.51e+09 ];
+SSPMST = [ 6.15e+08, 7.35e+08, 1.02e+09, 1.21e+09, 1.56e+09 ];
 SSPkNN = [ 9.80e+08, 8.50e+08, 1.27e+09, 2.07e+09, 2.32e+09 ];
 SSPOPT = SSPOPT / 1000000;
 SSPLPR = SSPLPR / 1000000;
 SSPMST = SSPMST / 1000000;
 SSPkNN = SSPkNN / 1000000;
-plot(X,SSPOPT,'--og ','LineWidth',3);
+plot(X,SSPOPT,'-+r','LineWidth',3);
 hold on;
 plot(X,SSPLPR,':*b','LineWidth',3);
 plot(X,SSPMST,'-.sc','LineWidth',3);
-plot(X,SSPkNN,'-+r','LineWidth',3);
+plot(X,SSPkNN,'--og ','LineWidth',3);
 xlabel('Number of Nodes');
-ylabel('Throughput (Mbps)');
+ylabel('Total Capacity (Mbps)');
 legend('SSP-OPT','SSP-LPR','SSP-MST','SSP-kNN', "Location", "NorthWest")
 set(gca, 'XTickMode', 'manual', 'XTick', X);
 hold off;

@@ -2,7 +2,8 @@
 #
 
 # Test comment
-CPLEXPATH="/Users/judson/Projects/phd/Tools/cplex"
+CPLEXPATH="/Users/judson/Projects/PhD/Tools/cplex"
+CPLEXPATH="/opt/cplex"
 
 JLPATH="./dist/lib:${CPLEXPATH}/cplex/bin/x86-64_darwin9_gcc4.0:${CPLEXPATH}/lib:${CPLEXPATH}/lib/x86-64_darwin9_gcc4.0"
 
