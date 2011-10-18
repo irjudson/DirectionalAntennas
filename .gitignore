@@ -9,3 +9,5 @@ nbproject/project.properties
 *.eps
 *.pdf
 *.csv
+*.bak
+*.numbers
