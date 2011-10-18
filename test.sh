@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #$ -N DA
 #$ -S /bin/bash
 #$ -j y
@@ -5,16 +6,17 @@
 
 # Test comment
 CPLEXPATH="/opt/cplex"
-CPLEXARCH="x86-64_darwin9_gcc4.0"
 CPLEXARCH="x86_sles10_4.1"
 CPLEXARCH="x86-64_sles10_4.1"
+CPLEXARCH="x86-64_darwin9_gcc4.0"
 JLPATH="./dist/lib:${CPLEXPATH}/cplex/bin/${CPLEXARCH}:${CPLEXPATH}/lib:${CPLEXPATH}/lib/${CPLEXARCH}"
 
-JAVA_OPTIONS="-Djava.library.path=${JLPATH} -Xmx3072m"
+JAVA_OPTIONS="-Djava.library.path=${JLPATH} -Xmx4096m"
+JAVA_OPTIONS="-Djava.library.path=${JLPATH} -Xmx2048m"
 
-CMD="java $JAVA_OPTIONS -jar dist/DirectionalAntennas.jar"
+CMD="java $JAVA_OPTIONS -jar target/DirectionalAntennas-1.0-jar-with-dependencies.jar"
 
-$CMD -n 8 -b 8 -s 15441 -o
+$CMD -s 15441 -O
 
 # Runs including the optimal solution
 #for nodes in 8 10 12 14 16; do

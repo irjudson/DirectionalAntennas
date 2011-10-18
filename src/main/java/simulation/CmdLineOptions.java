@@ -55,4 +55,12 @@ public class CmdLineOptions {
     @Option(name = "-p", aliases = {"--print-headers"}, metaVar = "HEADERS",
     usage = "Print headers for output data.")
     public boolean headers = false;
+    
+    @Option(name = "-i", aliases = {"--ivan"}, metaVar = "IVAN",
+    usage = "Run only the MSTPlus algorithm.")
+    public boolean mstOnly = false;
+
+    @Option(name = "-O", aliases = {"--optOnly"}, metaVar = "OPTONLY",
+    usage = "Run only the optimal algorithm.")
+    public boolean optOnly = false;
 }
